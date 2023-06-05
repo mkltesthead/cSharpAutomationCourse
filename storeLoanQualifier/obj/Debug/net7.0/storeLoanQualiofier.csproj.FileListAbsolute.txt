@@ -1,0 +1,15 @@
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/bin/Debug/net7.0/storeLoanQualiofier
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/bin/Debug/net7.0/storeLoanQualiofier.deps.json
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/bin/Debug/net7.0/storeLoanQualiofier.runtimeconfig.json
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/bin/Debug/net7.0/storeLoanQualiofier.dll
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/bin/Debug/net7.0/storeLoanQualiofier.pdb
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.csproj.AssemblyReference.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.AssemblyInfoInputs.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.AssemblyInfo.cs
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.csproj.CoreCompileInputs.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.dll
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/refint/storeLoanQualiofier.dll
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.pdb
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/storeLoanQualiofier.genruntimeconfig.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/storeLoanQualifier/obj/Debug/net7.0/ref/storeLoanQualiofier.dll
