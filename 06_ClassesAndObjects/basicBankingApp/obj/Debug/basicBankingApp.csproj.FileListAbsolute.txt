@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\obj\Debug\basicBankingApp.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\obj\Debug\basicBankingApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\obj\Debug\basicBankingApp.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\bin\Debug\basicBankingApp.exe.config
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\bin\Debug\basicBankingApp.exe
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\bin\Debug\basicBankingApp.pdb
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\obj\Debug\basicBankingApp.exe
+C:\Users\MichaelLarsen\source\repos\basicBankingApp\obj\Debug\basicBankingApp.pdb

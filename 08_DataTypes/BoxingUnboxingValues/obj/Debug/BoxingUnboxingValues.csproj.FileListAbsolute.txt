@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\bin\Debug\BoxingUnboxingValues.exe.config
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\bin\Debug\BoxingUnboxingValues.exe
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\bin\Debug\BoxingUnboxingValues.pdb
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\obj\Debug\BoxingUnboxingValues.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\obj\Debug\BoxingUnboxingValues.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\obj\Debug\BoxingUnboxingValues.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\obj\Debug\BoxingUnboxingValues.exe
+C:\Users\MichaelLarsen\source\repos\BoxingUnboxingValues\obj\Debug\BoxingUnboxingValues.pdb

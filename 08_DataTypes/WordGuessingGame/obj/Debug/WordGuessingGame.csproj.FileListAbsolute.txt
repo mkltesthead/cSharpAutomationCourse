@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\bin\Debug\WordGuessingGame.exe.config
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\bin\Debug\WordGuessingGame.exe
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\bin\Debug\WordGuessingGame.pdb
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\obj\Debug\WordGuessingGame.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\obj\Debug\WordGuessingGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\obj\Debug\WordGuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\obj\Debug\WordGuessingGame.exe
+C:\Users\MichaelLarsen\source\repos\WordGuessingGame\obj\Debug\WordGuessingGame.pdb

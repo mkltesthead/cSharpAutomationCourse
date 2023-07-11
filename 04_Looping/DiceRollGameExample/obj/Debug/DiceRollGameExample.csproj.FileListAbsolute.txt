@@ -1,0 +1,16 @@
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\bin\Debug\DiceRollGameExample.exe.config
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\bin\Debug\DiceRollGameExample.exe
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\bin\Debug\DiceRollGameExample.pdb
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\obj\Debug\DiceRollGameExample.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\obj\Debug\DiceRollGameExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\obj\Debug\DiceRollGameExample.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\obj\Debug\DiceRollGameExample.exe
+C:\Users\MichaelLarsen\source\repos\DiceRollGameExample\obj\Debug\DiceRollGameExample.pdb
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\bin\Debug\DiceRollGameExample.exe.config
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\bin\Debug\DiceRollGameExample.exe
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\bin\Debug\DiceRollGameExample.pdb
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\obj\Debug\DiceRollGameExample.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\obj\Debug\DiceRollGameExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\obj\Debug\DiceRollGameExample.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\obj\Debug\DiceRollGameExample.exe
+C:\Users\MichaelLarsen\source\repos\04_Looping\DiceRollGameExample\obj\Debug\DiceRollGameExample.pdb

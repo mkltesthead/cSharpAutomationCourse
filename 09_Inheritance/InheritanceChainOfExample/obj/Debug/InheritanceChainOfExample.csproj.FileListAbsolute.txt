@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\bin\Debug\InheritanceChainOfExample.exe.config
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\bin\Debug\InheritanceChainOfExample.exe
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\bin\Debug\InheritanceChainOfExample.pdb
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\obj\Debug\InheritanceChainOfExample.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\obj\Debug\InheritanceChainOfExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\obj\Debug\InheritanceChainOfExample.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\obj\Debug\InheritanceChainOfExample.exe
+C:\Users\MichaelLarsen\source\repos\InheritanceChainOfExample\obj\Debug\InheritanceChainOfExample.pdb

@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\bin\Debug\stringCharacterSearch.exe.config
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\bin\Debug\stringCharacterSearch.exe
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\bin\Debug\stringCharacterSearch.pdb
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\obj\Debug\stringCharacterSearch.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\obj\Debug\stringCharacterSearch.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\obj\Debug\stringCharacterSearch.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\obj\Debug\stringCharacterSearch.exe
+C:\Users\MichaelLarsen\source\repos\stringCharacterSearch\obj\Debug\stringCharacterSearch.pdb

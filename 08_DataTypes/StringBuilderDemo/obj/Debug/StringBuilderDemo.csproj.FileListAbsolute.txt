@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\obj\Debug\StringBuilderDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\obj\Debug\StringBuilderDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\obj\Debug\StringBuilderDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\bin\Debug\StringBuilderDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\bin\Debug\StringBuilderDemo.exe
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\bin\Debug\StringBuilderDemo.pdb
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\obj\Debug\StringBuilderDemo.exe
+C:\Users\MichaelLarsen\source\repos\StringBuilderDemo\obj\Debug\StringBuilderDemo.pdb

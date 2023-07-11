@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\bin\Debug\LottoTicketApp.exe.config
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\bin\Debug\LottoTicketApp.exe
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\bin\Debug\LottoTicketApp.pdb
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\obj\Debug\LottoTicketApp.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\obj\Debug\LottoTicketApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\obj\Debug\LottoTicketApp.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\obj\Debug\LottoTicketApp.exe
+C:\Users\MichaelLarsen\source\repos\LottoTicketApp\obj\Debug\LottoTicketApp.pdb

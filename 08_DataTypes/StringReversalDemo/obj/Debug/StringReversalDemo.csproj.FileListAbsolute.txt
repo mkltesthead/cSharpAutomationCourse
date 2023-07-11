@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\bin\Debug\StringReversalDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\bin\Debug\StringReversalDemo.exe
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\bin\Debug\StringReversalDemo.pdb
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\obj\Debug\StringReversalDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\obj\Debug\StringReversalDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\obj\Debug\StringReversalDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\obj\Debug\StringReversalDemo.exe
+C:\Users\MichaelLarsen\source\repos\StringReversalDemo\obj\Debug\StringReversalDemo.pdb

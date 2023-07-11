@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\catWithProperties\bin\Debug\catWithParameters.exe.config
+C:\Users\MichaelLarsen\source\repos\catWithProperties\bin\Debug\catWithParameters.exe
+C:\Users\MichaelLarsen\source\repos\catWithProperties\bin\Debug\catWithParameters.pdb
+C:\Users\MichaelLarsen\source\repos\catWithProperties\obj\Debug\catWithProperties.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\catWithProperties\obj\Debug\catWithProperties.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\catWithProperties\obj\Debug\catWithProperties.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\catWithProperties\obj\Debug\catWithParameters.exe
+C:\Users\MichaelLarsen\source\repos\catWithProperties\obj\Debug\catWithParameters.pdb

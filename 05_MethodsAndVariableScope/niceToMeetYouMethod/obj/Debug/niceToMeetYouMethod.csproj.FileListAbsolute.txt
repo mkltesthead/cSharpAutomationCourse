@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\bin\Debug\niceToMeetYouMethod.exe.config
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\bin\Debug\niceToMeetYouMethod.exe
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\bin\Debug\niceToMeetYouMethod.pdb
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\obj\Debug\niceToMeetYouMethod.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\obj\Debug\niceToMeetYouMethod.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\obj\Debug\niceToMeetYouMethod.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\obj\Debug\niceToMeetYouMethod.exe
+C:\Users\MichaelLarsen\source\repos\niceToMeetYouMethod\obj\Debug\niceToMeetYouMethod.pdb

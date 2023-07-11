@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\bin\Debug\StringCounterDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\bin\Debug\StringCounterDemo.exe
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\bin\Debug\StringCounterDemo.pdb
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\obj\Debug\StringCounterDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\obj\Debug\StringCounterDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\obj\Debug\StringCounterDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\obj\Debug\StringCounterDemo.exe
+C:\Users\MichaelLarsen\source\repos\StringCounterDemo\obj\Debug\StringCounterDemo.pdb

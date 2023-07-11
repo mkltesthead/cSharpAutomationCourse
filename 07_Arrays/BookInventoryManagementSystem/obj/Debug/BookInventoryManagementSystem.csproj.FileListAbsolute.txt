@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\bin\Debug\BookInventoryManagementSystem.exe.config
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\bin\Debug\BookInventoryManagementSystem.exe
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\bin\Debug\BookInventoryManagementSystem.pdb
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\obj\Debug\BookInventoryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\obj\Debug\BookInventoryManagementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\obj\Debug\BookInventoryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\obj\Debug\BookInventoryManagementSystem.exe
+C:\Users\MichaelLarsen\source\repos\BookInventoryManagementSystem\obj\Debug\BookInventoryManagementSystem.pdb

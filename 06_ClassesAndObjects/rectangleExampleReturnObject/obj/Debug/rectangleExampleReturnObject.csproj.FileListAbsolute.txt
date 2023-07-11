@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\bin\Debug\rectangleExampleReturnObject.exe.config
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\bin\Debug\rectangleExampleReturnObject.exe
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\bin\Debug\rectangleExampleReturnObject.pdb
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\obj\Debug\rectangleExampleReturnObject.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\obj\Debug\rectangleExampleReturnObject.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\obj\Debug\rectangleExampleReturnObject.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\obj\Debug\rectangleExampleReturnObject.exe
+C:\Users\MichaelLarsen\source\repos\rectangleExampleReturnObject\obj\Debug\rectangleExampleReturnObject.pdb

@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\bin\Debug\LottoTicketWithSort.exe.config
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\bin\Debug\LottoTicketWithSort.exe
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\bin\Debug\LottoTicketWithSort.pdb
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\obj\Debug\LottoTicketWithSort.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\obj\Debug\LottoTicketWithSort.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\obj\Debug\LottoTicketWithSort.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\obj\Debug\LottoTicketWithSort.exe
+C:\Users\MichaelLarsen\source\repos\LottoTicketWithSort\obj\Debug\LottoTicketWithSort.pdb

@@ -1,0 +1,15 @@
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/bin/Debug/net7.0/salesPayCalculatorProgramV3
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/bin/Debug/net7.0/salesPayCalculatorProgramV3.deps.json
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/bin/Debug/net7.0/salesPayCalculatorProgramV3.runtimeconfig.json
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/bin/Debug/net7.0/salesPayCalculatorProgramV3.dll
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/bin/Debug/net7.0/salesPayCalculatorProgramV3.pdb
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.csproj.AssemblyReference.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.AssemblyInfoInputs.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.AssemblyInfo.cs
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.csproj.CoreCompileInputs.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.dll
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/refint/salesPayCalculatorProgramV3.dll
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.pdb
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/salesPayCalculatorProgramV3.genruntimeconfig.cache
+/Users/michaellarsen/Projects/cSharpAutomationCourse/salesPayCalculatorProgramV3/obj/Debug/net7.0/ref/salesPayCalculatorProgramV3.dll

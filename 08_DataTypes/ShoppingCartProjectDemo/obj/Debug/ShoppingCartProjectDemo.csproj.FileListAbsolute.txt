@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\bin\Debug\ShoppingCartProjectDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\bin\Debug\ShoppingCartProjectDemo.exe
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\bin\Debug\ShoppingCartProjectDemo.pdb
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\obj\Debug\ShoppingCartProjectDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\obj\Debug\ShoppingCartProjectDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\obj\Debug\ShoppingCartProjectDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\obj\Debug\ShoppingCartProjectDemo.exe
+C:\Users\MichaelLarsen\source\repos\ShoppingCartProjectDemo\obj\Debug\ShoppingCartProjectDemo.pdb

@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\rectangleExample\obj\Debug\rectangleExample.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\rectangleExample\obj\Debug\rectangleExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\rectangleExample\obj\Debug\rectangleExample.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\rectangleExample\bin\Debug\rectangleExample.exe.config
+C:\Users\MichaelLarsen\source\repos\rectangleExample\bin\Debug\rectangleExample.exe
+C:\Users\MichaelLarsen\source\repos\rectangleExample\bin\Debug\rectangleExample.pdb
+C:\Users\MichaelLarsen\source\repos\rectangleExample\obj\Debug\rectangleExample.exe
+C:\Users\MichaelLarsen\source\repos\rectangleExample\obj\Debug\rectangleExample.pdb

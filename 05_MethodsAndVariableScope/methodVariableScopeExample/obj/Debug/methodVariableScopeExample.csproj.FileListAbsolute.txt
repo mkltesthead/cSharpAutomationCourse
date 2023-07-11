@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\bin\Debug\methodVariableScopeExample.exe.config
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\bin\Debug\methodVariableScopeExample.exe
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\bin\Debug\methodVariableScopeExample.pdb
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\obj\Debug\methodVariableScopeExample.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\obj\Debug\methodVariableScopeExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\obj\Debug\methodVariableScopeExample.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\obj\Debug\methodVariableScopeExample.exe
+C:\Users\MichaelLarsen\source\repos\methodVariableScopeExample\obj\Debug\methodVariableScopeExample.pdb

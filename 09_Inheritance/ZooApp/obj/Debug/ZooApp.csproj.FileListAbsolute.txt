@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\ZooApp\bin\Debug\ZooApp.exe.config
+C:\Users\MichaelLarsen\source\repos\ZooApp\bin\Debug\ZooApp.exe
+C:\Users\MichaelLarsen\source\repos\ZooApp\bin\Debug\ZooApp.pdb
+C:\Users\MichaelLarsen\source\repos\ZooApp\obj\Debug\ZooApp.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\ZooApp\obj\Debug\ZooApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\ZooApp\obj\Debug\ZooApp.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\ZooApp\obj\Debug\ZooApp.exe
+C:\Users\MichaelLarsen\source\repos\ZooApp\obj\Debug\ZooApp.pdb
