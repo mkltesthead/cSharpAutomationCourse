@@ -35,9 +35,3 @@ public class Customer
         Console.ReadKey();
     }
 }
-
-
-public class Book : IProduct, IKindleItem
-{
-    // Class implementation
-}
