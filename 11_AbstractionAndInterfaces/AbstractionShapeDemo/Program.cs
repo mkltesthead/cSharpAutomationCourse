@@ -68,23 +68,3 @@ public class ShapeTester
         Console.ReadKey();
     }
 }
-
-
-
-public abstract class Animal
-{
-    public abstract void MakeSound();
-
-    public void Eat()
-    {
-        Console.WriteLine("Eating...");
-    }
-}
-
-public class Dog : Animal
-{
-    public override void MakeSound()
-    {
-        Console.WriteLine("Bark!");
-    }
-}
