@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MichaelLarsen\\source\\repos\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj": {}
+    "C:\\Users\\MichaelLarsen\\source\\repos\\cSharpAutomationCourse\\10_Polymorphism\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MichaelLarsen\\source\\repos\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj": {
+    "C:\\Users\\MichaelLarsen\\source\\repos\\cSharpAutomationCourse\\10_Polymorphism\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MichaelLarsen\\source\\repos\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj",
+        "projectUniqueName": "C:\\Users\\MichaelLarsen\\source\\repos\\cSharpAutomationCourse\\10_Polymorphism\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj",
         "projectName": "PolymorphismCarRentalTests",
-        "projectPath": "C:\\Users\\MichaelLarsen\\source\\repos\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj",
+        "projectPath": "C:\\Users\\MichaelLarsen\\source\\repos\\cSharpAutomationCourse\\10_Polymorphism\\PolymorphismCarRentalTests\\PolymorphismCarRentalTests.csproj",
         "packagesPath": "C:\\Users\\MichaelLarsen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MichaelLarsen\\source\\repos\\PolymorphismCarRentalTests\\obj\\",
+        "outputPath": "C:\\Users\\MichaelLarsen\\source\\repos\\cSharpAutomationCourse\\10_Polymorphism\\PolymorphismCarRentalTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
