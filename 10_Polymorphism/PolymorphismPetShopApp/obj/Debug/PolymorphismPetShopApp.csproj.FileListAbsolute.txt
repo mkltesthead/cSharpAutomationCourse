@@ -6,3 +6,11 @@ C:\Users\MichaelLarsen\source\repos\PolymorphismPetShopApp\obj\Debug\Polymorphis
 C:\Users\MichaelLarsen\source\repos\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.csproj.CoreCompileInputs.cache
 C:\Users\MichaelLarsen\source\repos\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.exe
 C:\Users\MichaelLarsen\source\repos\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\bin\Debug\PolymorphismPetShopApp.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\bin\Debug\PolymorphismPetShopApp.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\bin\Debug\PolymorphismPetShopApp.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\10_Polymorphism\PolymorphismPetShopApp\obj\Debug\PolymorphismPetShopApp.pdb

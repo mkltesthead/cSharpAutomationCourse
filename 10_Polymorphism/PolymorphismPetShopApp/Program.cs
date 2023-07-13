@@ -50,7 +50,7 @@ class PolymorphismPetShopApp
 
         Console.WriteLine("**********");
 
-        Animal sven = new Dog(); // Upcasting
+        Animal sven = new Animal(); // Upcasting
         sven.MakeSound();
 
         Console.WriteLine("**********");
