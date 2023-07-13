@@ -1,0 +1,16 @@
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\bin\Debug\AbstractionShapeDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\bin\Debug\AbstractionShapeDemo.exe
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\bin\Debug\AbstractionShapeDemo.pdb
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.exe
+C:\Users\MichaelLarsen\source\repos\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\bin\Debug\AbstractionShapeDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\bin\Debug\AbstractionShapeDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\bin\Debug\AbstractionShapeDemo.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\AbstractionShapeDemo\obj\Debug\AbstractionShapeDemo.pdb

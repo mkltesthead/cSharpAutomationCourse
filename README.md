@@ -15,5 +15,3 @@ The current listing is as follows (you should see these directories):
 08_DataTypes
 09_Inheritance
 10_Polymorphism
-
-README.md

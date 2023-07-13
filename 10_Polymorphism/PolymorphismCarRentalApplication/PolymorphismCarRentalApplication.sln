@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismCarRentalApplication", "PolymorphismCarRentalApplication.csproj", "{256AB6F7-7431-4DAF-B37B-53B9F17EDC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismCarRentalTests", "..\PolymorphismCarRentalTests\PolymorphismCarRentalTests.csproj", "{E9261486-A1DD-46A9-A120-18E1097FE423}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{256AB6F7-7431-4DAF-B37B-53B9F17EDC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256AB6F7-7431-4DAF-B37B-53B9F17EDC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256AB6F7-7431-4DAF-B37B-53B9F17EDC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256AB6F7-7431-4DAF-B37B-53B9F17EDC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9261486-A1DD-46A9-A120-18E1097FE423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9261486-A1DD-46A9-A120-18E1097FE423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9261486-A1DD-46A9-A120-18E1097FE423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9261486-A1DD-46A9-A120-18E1097FE423}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF728A63-11D0-4AAB-A558-F69AC0EE5B60}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+C:\Users\MichaelLarsen\source\repos\PolymorphismCarRentalTests\obj\Debug\net6.0\PolymorphismCarRentalTests.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\PolymorphismCarRentalTests\obj\Debug\net6.0\PolymorphismCarRentalTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MichaelLarsen\source\repos\PolymorphismCarRentalTests\obj\Debug\net6.0\PolymorphismCarRentalTests.AssemblyInfoInputs.cache
+C:\Users\MichaelLarsen\source\repos\PolymorphismCarRentalTests\obj\Debug\net6.0\PolymorphismCarRentalTests.AssemblyInfo.cs
+C:\Users\MichaelLarsen\source\repos\PolymorphismCarRentalTests\obj\Debug\net6.0\PolymorphismCarRentalTests.csproj.CoreCompileInputs.cache

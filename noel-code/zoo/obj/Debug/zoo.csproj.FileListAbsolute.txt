@@ -1,0 +1,8 @@
+C:\dev\SDET\Csharp\zoo\obj\Debug\zoo.csproj.AssemblyReference.cache
+C:\dev\SDET\Csharp\zoo\obj\Debug\zoo.csproj.SuggestedBindingRedirects.cache
+C:\dev\SDET\Csharp\zoo\obj\Debug\zoo.csproj.CoreCompileInputs.cache
+C:\dev\SDET\Csharp\zoo\bin\Debug\zoo.exe.config
+C:\dev\SDET\Csharp\zoo\bin\Debug\zoo.exe
+C:\dev\SDET\Csharp\zoo\bin\Debug\zoo.pdb
+C:\dev\SDET\Csharp\zoo\obj\Debug\zoo.exe
+C:\dev\SDET\Csharp\zoo\obj\Debug\zoo.pdb

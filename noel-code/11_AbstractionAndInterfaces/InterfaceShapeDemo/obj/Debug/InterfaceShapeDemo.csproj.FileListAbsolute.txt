@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\bin\Debug\InterfaceShapeDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\bin\Debug\InterfaceShapeDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\bin\Debug\InterfaceShapeDemo.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\obj\Debug\InterfaceShapeDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\obj\Debug\InterfaceShapeDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\obj\Debug\InterfaceShapeDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\obj\Debug\InterfaceShapeDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceShapeDemo\obj\Debug\InterfaceShapeDemo.pdb
