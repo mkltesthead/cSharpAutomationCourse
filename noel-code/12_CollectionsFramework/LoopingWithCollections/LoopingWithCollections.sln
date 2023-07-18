@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopingWithCollections", "LoopingWithCollections.csproj", "{20147B62-8E18-4F70-8BA0-E2E0087F0980}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20147B62-8E18-4F70-8BA0-E2E0087F0980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20147B62-8E18-4F70-8BA0-E2E0087F0980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20147B62-8E18-4F70-8BA0-E2E0087F0980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20147B62-8E18-4F70-8BA0-E2E0087F0980}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0939151-678D-4F5C-BC3A-A8D1085EF6B8}
+	EndGlobalSection
+EndGlobal

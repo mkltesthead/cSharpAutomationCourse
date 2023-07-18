@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\bin\Debug\CollectionsDemoExamples.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\bin\Debug\CollectionsDemoExamples.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\bin\Debug\CollectionsDemoExamples.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\obj\Debug\CollectionsDemoExamples.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\obj\Debug\CollectionsDemoExamples.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\obj\Debug\CollectionsDemoExamples.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\obj\Debug\CollectionsDemoExamples.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsDemoExamples\obj\Debug\CollectionsDemoExamples.pdb
