@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-//namespace LoopingWithCollections
-//{
 class Program
 {
     static void Main(string[] args)
