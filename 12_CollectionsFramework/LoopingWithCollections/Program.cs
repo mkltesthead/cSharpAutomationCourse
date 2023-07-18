@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Program
+class LoopingWithCollections
 {
-    static void Main(string[] args)
+    static void Main()
     {
         HashSet<string> namesSet = new HashSet<string>()
             {
@@ -122,4 +122,3 @@ class Program
         Console.ReadKey();
     }
 }
-
