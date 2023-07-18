@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Program
+class CollectionsDemoExamples
+
 {
     static void Main(string[] args)
     {
@@ -45,12 +46,22 @@ class Program
         // Display the size of the HashSet
         Console.WriteLine("Size of the HashSet: " + namesSet.Count);
 
+        // Display all elements in the HashSet
+        Console.WriteLine("Elements in the HashSet:");
+        foreach (var name in namesSet)
+        {
+            Console.WriteLine(name);
+        }
+
         // Check if an element is present in the HashSet
         bool containsBob = namesSet.Contains("Bob");
         Console.WriteLine("HashSet contains Bob: " + containsBob);
 
         // Remove an element from the HashSet
         namesSet.Remove("Charlie");
+
+        // Display the size of the HashSet
+        Console.WriteLine("Size of the HashSet: " + namesSet.Count);
 
         // Display all elements in the HashSet
         Console.WriteLine("Elements in the HashSet:");
@@ -74,12 +85,20 @@ class Program
         // Display the size of the List
         Console.WriteLine("Size of the List: " + numbersList.Count);
 
+        // Display the size of the List
+        Console.WriteLine("Size of the List: " + numbersList.Count);
+
         // Access an element at a specific index
         int elementAtIndex2 = numbersList[2];
         Console.WriteLine("Element at index 2: " + elementAtIndex2);
 
         // Modify an element at a specific index
         numbersList[1] = 50;
+
+        // Access an element at a specific index
+        int elementAtIndex1 = numbersList[1];
+        Console.WriteLine("Element at index 1: " + elementAtIndex1);
+
 
         // Remove an element at a specific index
         Console.WriteLine("Removing: " + numbersList[3]);
@@ -119,11 +138,15 @@ class Program
             Console.WriteLine(item);
         }
 
+        // Check if an item is in the shopping cart
+        bool containsHat = shoppingCart.Contains("Hat");
+        Console.WriteLine("Shopping cart contains Hat: " + containsHat);
+
         // Remove an item from the shopping cart
         shoppingCart.Remove("Hat");
 
-        // Check if an item is in the shopping cart
-        bool containsHat = shoppingCart.Contains("Hat");
+        // Check if an item is still in the shopping cart
+        containsHat = shoppingCart.Contains("Hat");
         Console.WriteLine("Shopping cart contains Hat: " + containsHat);
 
         // Manually find the index of an item in the shopping cart
