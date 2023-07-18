@@ -1,24 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
-class LoopingWithCollections
+class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         HashSet<string> namesSet = new HashSet<string>()
-            {
-                "Alice",
-                "Bob",
-                "Charlie"
-            };
+        {
+            "Alice",
+            "Bob",
+            "Charlie"
+        };
 
         List<int> numbersList = new List<int>()
-            {
-                10,
-                20,
-                30,
-                40
-            };
+        {
+            10,
+            20,
+            30,
+            40
+        };
 
         LinkedList<string> shoppingCart = new LinkedList<string>();
         shoppingCart.AddLast("Shirt");
@@ -26,20 +27,21 @@ class LoopingWithCollections
         shoppingCart.AddLast("Hat");
 
         Dictionary<string, string> contactList = new Dictionary<string, string>()
-            {
-                { "John", "john@example.com" },
-                { "Alice", "alice@example.com" },
-                { "Bob", "bob@example.com" }
-            };
+        {
+            { "John", "john@example.com" },
+            { "Alice", "alice@example.com" },
+            { "Bob", "bob@example.com" }
+        };
 
         // DEMO HASHSET: Create a HashSet to store names
         Console.WriteLine("HashSet:");
         Console.WriteLine("Size of the HashSet: " + namesSet.Count);
         Console.WriteLine("HashSet contains Bob: " + namesSet.Contains("Bob"));
 
-        Console.WriteLine("Elements in the HashSet:");
-        foreach (string name in namesSet)
+        Console.WriteLine("Elements in the HashSet using for loop:");
+        for (int i = 0; i < namesSet.Count; i++)
         {
+            string name = namesSet.ElementAt(i);
             Console.WriteLine(name);
         }
 
@@ -55,21 +57,25 @@ class LoopingWithCollections
         Console.WriteLine("Removing: " + numbersList[3]);
         numbersList.RemoveAt(3);
 
-        Console.WriteLine("Elements in the ArrayList:");
-        foreach (int number in numbersList)
+        Console.WriteLine("Elements in the ArrayList using while loop:");
+        int index = 0;
+        while (index < numbersList.Count)
         {
-            Console.WriteLine(number);
+            Console.WriteLine(numbersList[index]);
+            index++;
         }
 
         Console.WriteLine();
 
         // DEMO LINKEDLIST: Create a LinkedList to represent a shopping cart
         Console.WriteLine("LinkedList:");
-        Console.WriteLine("Items in the shopping cart:");
-        foreach (string item in shoppingCart)
+        Console.WriteLine("Items in the shopping cart using do-while loop:");
+        LinkedListNode<string> currentNode = shoppingCart.First;
+        do
         {
-            Console.WriteLine(item);
-        }
+            Console.WriteLine(currentNode.Value);
+            currentNode = currentNode.Next;
+        } while (currentNode != null);
 
         shoppingCart.Remove("Shoes");
 
@@ -78,7 +84,7 @@ class LoopingWithCollections
 
         Console.WriteLine("Shopping cart contains Hat: " + shoppingCart.Contains("Hat"));
 
-        Console.WriteLine("Updated items in the shopping cart:");
+        Console.WriteLine("Updated items in the shopping cart using foreach loop:");
         foreach (string item in shoppingCart)
         {
             Console.WriteLine(item);
@@ -88,7 +94,7 @@ class LoopingWithCollections
 
         // DEMO DICTIONARY: Create a Dictionary to represent a contact list
         Console.WriteLine("Dictionary:");
-        Console.WriteLine("Contacts in the contact list:");
+        Console.WriteLine("Contacts in the contact list using foreach loop:");
         foreach (KeyValuePair<string, string> entry in contactList)
         {
             Console.WriteLine("Name: " + entry.Key + ", Email: " + entry.Value);
@@ -99,7 +105,7 @@ class LoopingWithCollections
         // DEMO LOOPS:
         Console.WriteLine("Loops:");
 
-        Console.WriteLine("Iterator method While loop output");
+        Console.WriteLine("Iterator method while loop output");
         var iterator = namesSet.GetEnumerator();
         while (iterator.MoveNext())
         {
@@ -112,7 +118,7 @@ class LoopingWithCollections
             Console.WriteLine(numbersList[i]);
         }
 
-        Console.WriteLine("Enhanced for loop output");
+        Console.WriteLine("Enhanced foreach loop output");
         foreach (string name in namesSet)
         {
             Console.WriteLine("Name: " + name);
@@ -122,3 +128,4 @@ class LoopingWithCollections
         Console.ReadKey();
     }
 }
+
