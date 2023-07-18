@@ -1,46 +1,52 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
-//namespace LoopingWithCollections
-//{
-class Program
+class LoopingWithCollections
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        HashSet<string> namesSet = new HashSet<string>()
-            {
-                "Alice",
-                "Bob",
-                "Charlie"
-            };
+        LoopingWithCollections app = new LoopingWithCollections();
 
-        List<int> numbersList = new List<int>()
-            {
-                10,
-                20,
-                30,
-                40
-            };
+        HashSet<string> myHashSet = new HashSet<string>()
+        {
+            "Alice",
+            "Bob",
+            "Charlie"
+        };
+        app.displayCollection(myHashSet);
 
-        LinkedList<string> shoppingCart = new LinkedList<string>();
-        shoppingCart.AddLast("Shirt");
-        shoppingCart.AddLast("Shoes");
-        shoppingCart.AddLast("Hat");
+        List<int> myList = new List<int>()
+        {
+            10,
+            20,
+            30,
+            40
+        };
+        app.displayCollection(myList);
 
-        Dictionary<string, string> contactList = new Dictionary<string, string>()
-            {
-                { "John", "john@example.com" },
-                { "Alice", "alice@example.com" },
-                { "Bob", "bob@example.com" }
-            };
+        LinkedList<string> myLinkedList = new LinkedList<string>();
+        myLinkedList.AddLast("Shirt");
+        myLinkedList.AddLast("Shoes");
+        myLinkedList.AddLast("Hat");
+        app.displayCollection(myLinkedList);
 
+        Dictionary<string, string> myDictionary = new Dictionary<string, string>()
+        {
+            { "John", "john@example.com" },
+            { "Alice", "alice@example.com" },
+            { "Bob", "bob@example.com" }
+        };
+        app.displayCollection(myDictionary);
+
+        /*
         // DEMO HASHSET: Create a HashSet to store names
         Console.WriteLine("HashSet:");
-        Console.WriteLine("Size of the HashSet: " + namesSet.Count);
-        Console.WriteLine("HashSet contains Bob: " + namesSet.Contains("Bob"));
+        Console.WriteLine("Size of the HashSet: " + myHashSet.Count);
+        Console.WriteLine("HashSet contains Bob: " + myHashSet.Contains("Bob"));
 
         Console.WriteLine("Elements in the HashSet:");
-        foreach (string name in namesSet)
+        foreach (string name in myHashSet)
         {
             Console.WriteLine(name);
         }
@@ -49,16 +55,16 @@ class Program
 
         // DEMO LIST: Create an ArrayList to store integers
         Console.WriteLine("ArrayList:");
-        Console.WriteLine("Size of the ArrayList: " + numbersList.Count);
-        Console.WriteLine("Element at index 2: " + numbersList[2]);
+        Console.WriteLine("Size of the ArrayList: " + myList.Count);
+        Console.WriteLine("Element at index 2: " + myList[2]);
 
-        numbersList[1] = 50;
+        myList[1] = 50;
 
-        Console.WriteLine("Removing: " + numbersList[3]);
-        numbersList.RemoveAt(3);
+        Console.WriteLine("Removing: " + myList[3]);
+        myList.RemoveAt(3);
 
         Console.WriteLine("Elements in the ArrayList:");
-        foreach (int number in numbersList)
+        foreach (int number in myList)
         {
             Console.WriteLine(number);
         }
@@ -68,20 +74,20 @@ class Program
         // DEMO LINKEDLIST: Create a LinkedList to represent a shopping cart
         Console.WriteLine("LinkedList:");
         Console.WriteLine("Items in the shopping cart:");
-        foreach (string item in shoppingCart)
+        foreach (string item in myLinkedList)
         {
             Console.WriteLine(item);
         }
 
-        shoppingCart.Remove("Shoes");
+        myLinkedList.Remove("Shoes");
 
-        Console.WriteLine("Last Item in Cart: " + shoppingCart.Last.Value);
-        Console.WriteLine("First Item in Cart: " + shoppingCart.First.Value);
+        Console.WriteLine("Last Item in Cart: " + myLinkedList.Last.Value);
+        Console.WriteLine("First Item in Cart: " + myLinkedList.First.Value);
 
-        Console.WriteLine("Shopping cart contains Hat: " + shoppingCart.Contains("Hat"));
+        Console.WriteLine("Shopping cart contains Hat: " + myLinkedList.Contains("Hat"));
 
         Console.WriteLine("Updated items in the shopping cart:");
-        foreach (string item in shoppingCart)
+        foreach (string item in myLinkedList)
         {
             Console.WriteLine(item);
         }
@@ -91,7 +97,7 @@ class Program
         // DEMO DICTIONARY: Create a Dictionary to represent a contact list
         Console.WriteLine("Dictionary:");
         Console.WriteLine("Contacts in the contact list:");
-        foreach (KeyValuePair<string, string> entry in contactList)
+        foreach (KeyValuePair<string, string> entry in myDictionary)
         {
             Console.WriteLine("Name: " + entry.Key + ", Email: " + entry.Value);
         }
@@ -102,26 +108,60 @@ class Program
         Console.WriteLine("Loops:");
 
         Console.WriteLine("Iterator method While loop output");
-        var iterator = namesSet.GetEnumerator();
+        var iterator = myHashSet.GetEnumerator();
         while (iterator.MoveNext())
         {
             Console.WriteLine(iterator.Current);
         }
 
         Console.WriteLine("For loop output");
-        for (int i = 0; i < numbersList.Count; i++)
+        for (int i = 0; i < myList.Count; i++)
         {
-            Console.WriteLine(numbersList[i]);
+            Console.WriteLine(myList[i]);
         }
 
         Console.WriteLine("Enhanced for loop output");
-        foreach (string name in namesSet)
+        foreach (string name in myHashSet)
         {
             Console.WriteLine("Name: " + name);
         }
+        */
 
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
     }
-}
 
+    public void displayCollection(object myCollection)
+    {
+        if (myCollection is IEnumerable)
+        {
+            Console.WriteLine("While loop output");
+            var iterator = ((IEnumerable)myCollection).GetEnumerator();
+            while (iterator.MoveNext())
+            {
+                Console.WriteLine(iterator.Current);
+            }
+            Console.WriteLine();
+        }
+
+        if (myCollection is List<int>)
+        {
+            Console.WriteLine("For loop output");
+            for (int i = 0; i < ((List<int>)myCollection).Count; i++)
+            {
+                Console.WriteLine(((List<int>)myCollection)[i]);
+            }
+            Console.WriteLine();
+        }
+
+        if (myCollection is IEnumerable)
+        {
+            Console.WriteLine("Foreach loop output");
+            foreach (var name in ((IEnumerable)myCollection))
+            {
+                Console.WriteLine(name);
+            }
+            Console.WriteLine();
+        }
+    }
+}
