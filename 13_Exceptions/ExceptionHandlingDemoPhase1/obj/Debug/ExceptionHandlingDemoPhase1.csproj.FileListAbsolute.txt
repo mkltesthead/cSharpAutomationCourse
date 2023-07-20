@@ -6,3 +6,11 @@ C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\Excepti
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.csproj.CoreCompileInputs.cache
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.exe
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.pdb
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\bin\Debug\ExceptionHandlingDemoPhase1.exe.config
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\bin\Debug\ExceptionHandlingDemoPhase1.exe
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\bin\Debug\ExceptionHandlingDemoPhase1.pdb
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.csproj.AssemblyReference.cache
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.csproj.SuggestedBindingRedirects.cache
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.csproj.CoreCompileInputs.cache
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.exe
+C:\dev\SDET\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase1\obj\Debug\ExceptionHandlingDemoPhase1.pdb
