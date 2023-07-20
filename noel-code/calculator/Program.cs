@@ -79,7 +79,7 @@ namespace calculator
         {
             if (b == 0)
             {
-                throw new DivideByZeroException("Can't divide by 0.");
+                throw new DivisionByZeroException("Can't divide by 0.");
             }
             if (a % b != 0)
             {
@@ -112,8 +112,15 @@ namespace calculator
         }
     }
 
+    class DivisionByZeroException : Exception
+    {
+        public DivisionByZeroException(string message) : base(message)
+        {
+        }
+    }
+
     class CalculationOverflowException : Exception
-    {        
+    {
         public CalculationOverflowException(string message) : base(message)
         {
         }
