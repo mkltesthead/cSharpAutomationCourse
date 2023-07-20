@@ -27,9 +27,17 @@ namespace ExceptionHandlingDemo
             {
                 Console.WriteLine("Unauthorized Access Exception: The program does not have permission to create the file in the specified location.");
             }
-            catch (DirectoryNotFoundException)
+            catch (DirectoryNotFoundException ex)
             {
                 Console.WriteLine("Directory Not Found Exception: The specified directory path does not exist.");
+                Console.WriteLine($"\r\nData ({ex.Data.Count}): " + string.Join("\r\n", ex.Data));
+                Console.WriteLine("\r\nHelpLink: " + ex.HelpLink);
+                Console.WriteLine("\r\nHResult: " + ex.HResult);
+                //Console.WriteLine("\r\nInnerException: " + ex.InnerException.Message);
+                Console.WriteLine("\r\nMessage: " + ex.Message);
+                Console.WriteLine("\r\nStackTrace: " + ex.StackTrace);
+                Console.WriteLine("\r\nSource: " + ex.Source);
+                Console.WriteLine("\r\nTargetSite: " + ex.TargetSite.ToString());
             }
             catch (Exception e)
             {
