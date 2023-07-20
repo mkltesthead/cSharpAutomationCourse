@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\bin\Debug\CollectionsMusicLibrary.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\bin\Debug\CollectionsMusicLibrary.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\bin\Debug\CollectionsMusicLibrary.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\obj\Debug\CollectionsMusicLibrary.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\obj\Debug\CollectionsMusicLibrary.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\obj\Debug\CollectionsMusicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\obj\Debug\CollectionsMusicLibrary.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\CollectionsMusicLibrary\obj\Debug\CollectionsMusicLibrary.pdb
