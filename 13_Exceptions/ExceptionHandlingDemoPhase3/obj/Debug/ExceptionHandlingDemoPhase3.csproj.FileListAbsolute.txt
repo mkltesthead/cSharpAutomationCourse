@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\bin\Debug\ExceptionHandlingDemoPhase3.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\bin\Debug\ExceptionHandlingDemoPhase3.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\bin\Debug\ExceptionHandlingDemoPhase3.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\obj\Debug\ExceptionHandlingDemoPhase3.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\obj\Debug\ExceptionHandlingDemoPhase3.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\obj\Debug\ExceptionHandlingDemoPhase3.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\obj\Debug\ExceptionHandlingDemoPhase3.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionHandlingDemoPhase3\obj\Debug\ExceptionHandlingDemoPhase3.pdb

@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\bin\Debug\ExceptionValidateAgeDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\bin\Debug\ExceptionValidateAgeDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\bin\Debug\ExceptionValidateAgeDemo.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\obj\Debug\ExceptionValidateAgeDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\obj\Debug\ExceptionValidateAgeDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\obj\Debug\ExceptionValidateAgeDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\obj\Debug\ExceptionValidateAgeDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionValidateAgeDemo\obj\Debug\ExceptionValidateAgeDemo.pdb
