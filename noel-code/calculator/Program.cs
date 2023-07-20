@@ -40,11 +40,11 @@ namespace calculator
         {
             if (a + b > max)
             {
-                throw new ArgumentException($"Result is greater than {max}");
+                throw new CalculationOverflowException($"Result is greater than {max}");
             }
             else if (a + b < min)
             {
-                throw new ArgumentException($"Result is less than {min}");
+                throw new CalculationUnderflowException($"Result is less than {min}");
             }
             return a + b;
         }
@@ -53,11 +53,11 @@ namespace calculator
         {
             if (a - b > max)
             {
-                throw new ArgumentException($"Result is greater than {max}");
+                throw new CalculationOverflowException($"Result is greater than {max}");
             }
             else if (a - b < min)
             {
-                throw new ArgumentException($"Result is less than {min}");
+                throw new CalculationUnderflowException($"Result is less than {min}");
             }
             return a - b;
         }
@@ -66,11 +66,11 @@ namespace calculator
         {
             if (a * b > max)
             {
-                throw new ArgumentException($"Result is greater than {max}");
+                throw new CalculationOverflowException($"Result is greater than {max}");
             }
             else if (a * b < min)
             {
-                throw new ArgumentException($"Result is less than {min}");
+                throw new CalculationUnderflowException($"Result is less than {min}");
             }
             return a * b;
         }
@@ -87,11 +87,11 @@ namespace calculator
             }
             else if (a / b > max)
             {
-                throw new ArgumentException($"Result is greater than {max}");
+                throw new CalculationOverflowException($"Result is greater than {max}");
             }
             else if (a / b < min)
             {
-                throw new ArgumentException($"Result is less than {min}");
+                throw new CalculationUnderflowException($"Result is less than {min}");
             }
             return a / b;
         }
@@ -102,13 +102,27 @@ namespace calculator
             int result = (option == "") ? 0 : Convert.ToInt32(option);
             if (result > max)
             {
-                throw new ArgumentException($"Argument is greater than {max}");
+                throw new CalculationOverflowException($"Argument is greater than {max}");
             }
             else if (result < min)
             {
-                throw new ArgumentException($"Argument is less than {min}");
+                throw new CalculationUnderflowException($"Argument is less than {min}");
             }
             return result;
+        }
+    }
+
+    class CalculationOverflowException : Exception
+    {        
+        public CalculationOverflowException(string message) : base(message)
+        {
+        }
+    }
+
+    class CalculationUnderflowException : Exception
+    {
+        public CalculationUnderflowException(string message) : base(message)
+        {
         }
     }
 }
