@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\bin\Debug\FileIOReadAndWriteDemoV2.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\bin\Debug\FileIOReadAndWriteDemoV2.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\bin\Debug\FileIOReadAndWriteDemoV2.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\obj\Debug\FileIOReadAndWriteDemoV2.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\obj\Debug\FileIOReadAndWriteDemoV2.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\obj\Debug\FileIOReadAndWriteDemoV2.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\obj\Debug\FileIOReadAndWriteDemoV2.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2\obj\Debug\FileIOReadAndWriteDemoV2.pdb
