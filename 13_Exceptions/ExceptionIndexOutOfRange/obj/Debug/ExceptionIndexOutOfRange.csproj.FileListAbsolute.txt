@@ -6,3 +6,11 @@ C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramewo
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.csproj.CoreCompileInputs.cache
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.exe
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\12_CollectionsFramework\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\bin\Debug\ExceptionIndexOutOfRange.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\bin\Debug\ExceptionIndexOutOfRange.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\bin\Debug\ExceptionIndexOutOfRange.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionIndexOutOfRange\obj\Debug\ExceptionIndexOutOfRange.pdb
