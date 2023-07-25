@@ -37,11 +37,11 @@ namespace FileIOReadAndWriteDemo
                     // Use the Write method to write data to the file.
                     // Each call to Write writes the data to the file without a new line.
                     // Experiment with different formatting options such as New Lines or Spaces
-                    writer.Write("Michael Larsen");
-                    writer.Write("Victor Jones");
-                    writer.Write("Brian Horban");
-                    writer.Write("Lloyd Ellis");
-                    writer.Write("Edward Scott");
+                    writer.Write("Michael Larsen \n");
+                    writer.Write("Victor Jones \n");
+                    writer.Write("Brian Horban \n");
+                    writer.Write("Lloyd Ellis \n");
+                    writer.Write("Edward Scott \n");
                 }
 
                 // Note: The StreamWriter automatically flushes the buffer and writes the data to the file.

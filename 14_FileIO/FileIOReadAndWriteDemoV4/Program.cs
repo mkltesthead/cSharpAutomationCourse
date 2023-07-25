@@ -8,7 +8,7 @@ namespace FileIOReadAndWriteDemoV4
         static void Main(string[] args)
         {
             // Create a working directory on our hard drive to read from and write to.
-            string directoryPath = @"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV5";
+            string directoryPath = @"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV4";
             Directory.CreateDirectory(directoryPath);
 
             // Call the WriteFile method to create and write to a file.
@@ -126,7 +126,7 @@ namespace FileIOReadAndWriteDemoV4
                 // This will open the file in append mode, allowing new content to be added at the end of the file.
                 using (StreamWriter writer = new StreamWriter(filePath, true))
                 {
-                    // Use the WriteLine method to append data to the file.
+                    // Use the WriteLine method to append data to the file. this also puts in new lines by default.
                     writer.WriteLine("Ensign Red Releases:");
                     writer.WriteLine("EP: Behind the Ramparts");
                     writer.WriteLine("Single: So I Bleed");
