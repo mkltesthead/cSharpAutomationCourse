@@ -1,0 +1,16 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\bin\Debug\FileIOReadAndWriteDemo.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\bin\Debug\FileIOReadAndWriteDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\bin\Debug\FileIOReadAndWriteDemo.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.pdb
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\bin\Debug\FileIOReadAndWriteDemo.exe.config
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\bin\Debug\FileIOReadAndWriteDemo.exe
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\bin\Debug\FileIOReadAndWriteDemo.pdb
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.csproj.AssemblyReference.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.csproj.SuggestedBindingRedirects.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.csproj.CoreCompileInputs.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.exe
+C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemo\obj\Debug\FileIOReadAndWriteDemo.pdb

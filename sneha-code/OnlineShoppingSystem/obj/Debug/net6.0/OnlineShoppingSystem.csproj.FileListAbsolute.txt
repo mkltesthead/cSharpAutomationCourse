@@ -1,0 +1,15 @@
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\bin\Debug\net6.0\OnlineShoppingSystem.exe
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\bin\Debug\net6.0\OnlineShoppingSystem.deps.json
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\bin\Debug\net6.0\OnlineShoppingSystem.runtimeconfig.json
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\bin\Debug\net6.0\OnlineShoppingSystem.dll
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\bin\Debug\net6.0\OnlineShoppingSystem.pdb
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.csproj.AssemblyReference.cache
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.AssemblyInfoInputs.cache
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.AssemblyInfo.cs
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.csproj.CoreCompileInputs.cache
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.dll
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\refint\OnlineShoppingSystem.dll
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.pdb
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\OnlineShoppingSystem.genruntimeconfig.cache
+C:\Users\u1173906\OneDrive - MMC\Documents\SDET BootCamp\C sharp\CSharp Git repository\cSharpAutomationCourse\sneha-code\OnlineShoppingSystem\obj\Debug\net6.0\ref\OnlineShoppingSystem.dll
