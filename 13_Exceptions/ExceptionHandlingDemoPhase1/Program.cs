@@ -31,7 +31,18 @@ namespace ExceptionHandlingDemo
             catch (DirectoryNotFoundException ex)
             {
                 Console.WriteLine("Directory Not Found Exception: The specified directory path does not exist.");
+<<<<<<< HEAD
                 Console.WriteLine(ex.Message);
+=======
+                Console.WriteLine($"\r\nData ({ex.Data.Count}): " + string.Join("\r\n", ex.Data));
+                Console.WriteLine("\r\nHelpLink: " + ex.HelpLink);
+                Console.WriteLine("\r\nHResult: " + ex.HResult);
+                //Console.WriteLine("\r\nInnerException: " + ex.InnerException.Message);
+                Console.WriteLine("\r\nMessage: " + ex.Message);
+                Console.WriteLine("\r\nStackTrace: " + ex.StackTrace);
+                Console.WriteLine("\r\nSource: " + ex.Source);
+                Console.WriteLine("\r\nTargetSite: " + ex.TargetSite.ToString());
+>>>>>>> 10f084f8ef0a900a00fb19350ccd01b73b371d1c
             }
             catch (Exception e)
             {
