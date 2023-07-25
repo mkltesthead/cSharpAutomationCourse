@@ -7,8 +7,6 @@ namespace fileManagement
     {
         static void Main(string[] args)
         {
-            FileManagement app = new FileManagement();
-
             // Create a working directory on our hard drive to read from and write to.
             string directoryPath = @"C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\documents";
             Directory.CreateDirectory(directoryPath);
@@ -179,7 +177,7 @@ namespace fileManagement
                     Console.WriteLine($"There is no {dirName} directory in {directoryPath}.");
                 }
 
-                ListDir(dirPath, "    ");
+                ListDirectory(dirPath, "    ");
             }
             catch (IOException e)
             {
@@ -188,7 +186,7 @@ namespace fileManagement
             }
         }
 
-        public static void ListDir(string dirPath, string prefix)
+        public static void ListDirectory(string dirPath, string prefix)
         {
             try
             {
@@ -200,7 +198,7 @@ namespace fileManagement
                 foreach (var dir in Directory.GetDirectories(dirPath))
                 {
                     Console.WriteLine($"{prefix}{Path.GetFileName(dir)}:");
-                    ListDir(dir, prefix + "    ");
+                    ListDirectory(dir, prefix + "    ");
                 }
             }
             catch (IOException e)
