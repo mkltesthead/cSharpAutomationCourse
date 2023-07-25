@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ExceptionHandlingDemoPhase2
 {
@@ -17,7 +18,7 @@ namespace ExceptionHandlingDemoPhase2
             try
             {
                 // Create the file
-                System.IO.File.Create(filePath);
+                File.Create(filePath);
                 Console.WriteLine("Hey, congratulations, you can create this file!");
                 Console.WriteLine("Press any key to exit");
                 Console.ReadKey();
