@@ -33,9 +33,10 @@ namespace ExceptionHandlingDemo
                     }
                 }
             }
-            catch (FileNotFoundException)
+            catch (FileNotFoundException ex)
             {
                 Console.WriteLine("Hello beautiful user! The file you are trying to read does not exist.");
+                Console.WriteLine(ex.Message);
                 Console.WriteLine("Press any key to exit");
                 Console.ReadKey();
             }
@@ -43,6 +44,11 @@ namespace ExceptionHandlingDemo
             {
                 Console.WriteLine("An error occurred while reading the file:");
                 Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Press any key to exit");
+                Console.ReadKey();
             }
         }
     }

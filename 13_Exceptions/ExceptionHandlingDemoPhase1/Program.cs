@@ -21,15 +21,17 @@ namespace ExceptionHandlingDemo
             try
             {
                 // Create the file
-                System.IO.File.Create(filePath);
+                File.Create(filePath);
             }
+
             catch (UnauthorizedAccessException)
             {
                 Console.WriteLine("Unauthorized Access Exception: The program does not have permission to create the file in the specified location.");
             }
-            catch (DirectoryNotFoundException)
+            catch (DirectoryNotFoundException ex)
             {
                 Console.WriteLine("Directory Not Found Exception: The specified directory path does not exist.");
+                Console.WriteLine(ex.Message);
             }
             catch (Exception e)
             {
