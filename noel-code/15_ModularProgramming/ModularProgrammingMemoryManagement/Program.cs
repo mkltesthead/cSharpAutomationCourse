@@ -21,6 +21,7 @@ class Program
         // Heap Memory (Reference Types)
         MyClass obj1 = new MyClass(20); // 'obj1' is a reference stored on the stack, pointing to an object on the heap
         MyClass obj2 = obj1;            // 'obj2' is another reference to the same object on the heap
+        //MyClass obj2 = new MyClass(obj1.Number);
 
         // Display initial values
         Console.WriteLine("Stack Memory (Value Types):");
