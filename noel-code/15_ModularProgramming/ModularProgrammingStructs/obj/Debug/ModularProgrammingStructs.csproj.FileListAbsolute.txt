@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\bin\Debug\ModularProgrammingStructs.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\bin\Debug\ModularProgrammingStructs.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\bin\Debug\ModularProgrammingStructs.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.pdb
