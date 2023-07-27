@@ -1,0 +1,8 @@
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\bin\Debug\fileManagement.exe.config
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\bin\Debug\fileManagement.exe
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\bin\Debug\fileManagement.pdb
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\obj\Debug\fileManagement.csproj.AssemblyReference.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\obj\Debug\fileManagement.csproj.SuggestedBindingRedirects.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\obj\Debug\fileManagement.csproj.CoreCompileInputs.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\obj\Debug\fileManagement.exe
+C:\dev\SDET\cSharpAutomationCourse\noel-code\fileManagement\obj\Debug\fileManagement.pdb

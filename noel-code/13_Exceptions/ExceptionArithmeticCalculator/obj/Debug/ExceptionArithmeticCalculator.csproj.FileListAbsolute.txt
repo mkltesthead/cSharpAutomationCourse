@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\bin\Debug\ExceptionArithmeticCalculator.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\bin\Debug\ExceptionArithmeticCalculator.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\bin\Debug\ExceptionArithmeticCalculator.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\obj\Debug\ExceptionArithmeticCalculator.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\obj\Debug\ExceptionArithmeticCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\obj\Debug\ExceptionArithmeticCalculator.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\obj\Debug\ExceptionArithmeticCalculator.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionArithmeticCalculator\obj\Debug\ExceptionArithmeticCalculator.pdb

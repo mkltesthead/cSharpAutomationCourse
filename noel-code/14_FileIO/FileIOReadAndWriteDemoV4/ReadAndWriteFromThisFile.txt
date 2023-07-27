@@ -8,3 +8,4 @@ Ensign Red Releases:
 EP: Behind the Ramparts
 Single: So I Bleed
 Single: From the Shadows
+This is the text to append

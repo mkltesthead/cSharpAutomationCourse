@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\bin\Debug\ExceptionThrowDemoExample.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\bin\Debug\ExceptionThrowDemoExample.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\bin\Debug\ExceptionThrowDemoExample.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\obj\Debug\ExceptionThrowDemoExample.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\obj\Debug\ExceptionThrowDemoExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\obj\Debug\ExceptionThrowDemoExample.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\obj\Debug\ExceptionThrowDemoExample.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\13_Exceptions\ExceptionThrowDemoExample\obj\Debug\ExceptionThrowDemoExample.pdb

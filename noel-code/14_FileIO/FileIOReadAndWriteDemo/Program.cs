@@ -12,7 +12,7 @@ namespace FileIOReadAndWriteDemo
             Directory.CreateDirectory(directoryPath);
 
             // Call the writeFile method to create and write to a file.
-            WriteFile();
+            WriteFile(directoryPath);
 
             // Display a message indicating that the file has been written successfully.
             Console.WriteLine("File has been written successfully!");
@@ -22,12 +22,12 @@ namespace FileIOReadAndWriteDemo
             Console.ReadKey();
         }
 
-        public static void WriteFile()
+        public static void WriteFile(string directoryPath)
         {
             try
             {
                 // Combine the directory path and file name for the file.
-                string filePath = Path.Combine(@"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\ReadAndWriteFromHere", "ReadAndWriteFile.txt");
+                string filePath = Path.Combine(directoryPath, "ReadAndWriteFile.txt");
 
                 // Create a new instance of StreamWriter named writer.
                 // The StreamWriter class is used to write characters to a file.

@@ -11,33 +11,41 @@ namespace FileIOReadAndWriteDemoV2
             string directoryPath = @"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemoV2";
             Directory.CreateDirectory(directoryPath);
 
+            string filePath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), @"..\..");
+
+            Console.WriteLine(filePath);
+
+            //filePath = System.IO.Directory.GetParent((string)filePath);
+
+            //Console.WriteLine(filePath);
+
             // Call the WriteFile method to create and write to a file.
-            WriteFile();
+            WriteFile(directoryPath);
 
             // Display a message indicating that the file has been written successfully.
             Console.WriteLine("File has been written successfully!");
 
             // Call the ReadFile method to read from the file.
-            ReadFile();
+            ReadFile(directoryPath);
 
             // Wait for user input before closing the console window.
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
 
-        public static void WriteFile()
+        public static void WriteFile(string directoryPath)
         {
             try
             {
-                string filePath = Path.Combine(@"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemoV2", "ReadAndWriteFromThisFile.txt");
+                string filePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
 
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
-                    writer.Write("Lloyd Ellis \n");
-                    writer.Write("Brian Horban\n");
-                    writer.Write("Victor Jones\n");
-                    writer.Write("Michael Larsen\n");
-                    writer.Write("Edward Scott\n");
+                    writer.WriteLine("Lloyd Ellis");
+                    writer.WriteLine("Brian Horban");
+                    writer.WriteLine("Victor Jones");
+                    writer.WriteLine("Michael Larsen");
+                    writer.WriteLine("Edward Scott");
                 }
             }
             catch (IOException e)
@@ -47,11 +55,11 @@ namespace FileIOReadAndWriteDemoV2
             }
         }
 
-        public static void ReadFile()
+        public static void ReadFile(string directoryPath)
         {
             try
             {
-                string filePath = Path.Combine(@"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV2", "ReadAndWriteFromThisFile.txt");
+                string filePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
 
                 using (StreamReader reader = new StreamReader(filePath))
                 {

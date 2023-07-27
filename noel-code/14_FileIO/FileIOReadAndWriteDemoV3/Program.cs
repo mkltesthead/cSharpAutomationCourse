@@ -31,11 +31,11 @@ namespace FileIOReadAndWriteDemoV3
             Console.ReadKey();
         }
 
-        public static void WriteFile()
+        public static void WriteFile(string directoryPath)
         {
             try
             {
-                string filePath = Path.Combine(@"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemoV3", "ReadAndWriteFromThisFile.txt");
+                string filePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
 
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
@@ -53,11 +53,11 @@ namespace FileIOReadAndWriteDemoV3
             }
         }
 
-        public static void ReadFile()
+        public static void ReadFile(string directoryPath)
         {
             try
             {
-                string filePath = Path.Combine(@"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemoV3", "ReadAndWriteFromThisFile.txt");
+                string filePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
 
                 using (StreamReader reader = new StreamReader(filePath))
                 {
@@ -76,12 +76,12 @@ namespace FileIOReadAndWriteDemoV3
             }
         }
 
-        public static void CopyPasteText()
+        public static void CopyPasteText(string directoryPath)
         {
             try
             {
-                string sourceFilePath = Path.Combine(@"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemoV3", "ReadAndWriteFromThisFile.txt");
-                string destinationFilePath = Path.Combine(@"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemoV3", "CopyTextToThisFile.txt");
+                string sourceFilePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
+                string destinationFilePath = Path.Combine(directoryPath, "CopyTextToThisFile.txt");
 
                 using (StreamReader reader = new StreamReader(sourceFilePath))
                 using (StreamWriter writer = new StreamWriter(destinationFilePath))
