@@ -6,3 +6,11 @@ C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.csproj.CoreCompileInputs.cache
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.exe
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.pdb
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\bin\Debug\ModularProgrammingStructs.exe.config
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\bin\Debug\ModularProgrammingStructs.exe
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\bin\Debug\ModularProgrammingStructs.pdb
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.csproj.AssemblyReference.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.csproj.SuggestedBindingRedirects.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.csproj.CoreCompileInputs.cache
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.exe
+C:\dev\SDET\cSharpAutomationCourse\noel-code\15_ModularProgramming\ModularProgrammingStructs\obj\Debug\ModularProgrammingStructs.pdb

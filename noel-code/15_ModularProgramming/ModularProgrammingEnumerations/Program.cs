@@ -3,49 +3,64 @@
 // Define an enumeration for days of the week
 enum DaysOfWeek
 {
-    Monday,
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday
+    Monday = 0x1,
+    Tuesday = 0x2,
+    Wednesday = 0x4,
+    Thursday = 0x8,
+    Friday = 0x10,
+    Saturday = 0x20,
+    Sunday = 0x40
 }
 
 class ModularProgrammingEnumerations
 {
     static void Main()
     {
-        // Let's ask the user to input a day of the week
-        Console.WriteLine("Enter a day of the week:");
-        string userInput = Console.ReadLine();
+        int days = 0;
 
-        // Try to parse the user input to the DaysOfWeek enumeration
-        if (Enum.TryParse(userInput, out DaysOfWeek userDay))
+        while (true)
         {
-            // Switch statement to display a message based on the selected day
-            switch (userDay)
+            // Let's ask the user to input a day of the week
+            Console.WriteLine("Enter a day of the week:");
+            string userInput = Console.ReadLine();
+
+            // Try to parse the user input to the DaysOfWeek enumeration
+            if (Enum.TryParse(userInput, out DaysOfWeek userDay))
             {
-                case DaysOfWeek.Monday:
-                case DaysOfWeek.Tuesday:
-                case DaysOfWeek.Wednesday:
-                case DaysOfWeek.Thursday:
-                case DaysOfWeek.Friday:
-                    Console.WriteLine("It's a weekday. Get to work!");
-                    break;
-                case DaysOfWeek.Saturday:
-                case DaysOfWeek.Sunday:
-                    Console.WriteLine("It's the weekend. Time to relax!");
-                    break;
-                default:
-                    Console.WriteLine("Invalid day.");
-                    break;
+                // Switch statement to display a message based on the selected day
+                switch (userDay)
+                {
+                    case DaysOfWeek.Monday:
+                    case DaysOfWeek.Tuesday:
+                    case DaysOfWeek.Wednesday:
+                    case DaysOfWeek.Thursday:
+                    case DaysOfWeek.Friday:
+                    case DaysOfWeek.Saturday:
+                    case DaysOfWeek.Sunday:
+                        days = days | (int)userDay;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid day.");
+                        break;
+                }
+                //Console.WriteLine(days);
+            }
+            else if (userInput == "")
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid day of the week.");
             }
         }
-        else
+
+        Console.WriteLine("You selected the following days:");
+        foreach (var key in Enum.GetValues(typeof(DaysOfWeek)))
         {
-            Console.WriteLine("Invalid input. Please enter a valid day of the week.");
+            if ((days & (int)key) > 0) Console.WriteLine($"    {(DaysOfWeek)key}");
         }
+
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
     }
