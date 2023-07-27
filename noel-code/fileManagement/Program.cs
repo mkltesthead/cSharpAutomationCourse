@@ -108,7 +108,7 @@ namespace fileManagement
         {
             try
             {
-                string dirName = getInput("Please enter the directory name.");
+                string dirName = getInput("Please enter the name of the directory you would like to create.");
                 string dirPath = Path.Combine(directoryPath, dirName);
                 Directory.CreateDirectory(dirPath);
             }
