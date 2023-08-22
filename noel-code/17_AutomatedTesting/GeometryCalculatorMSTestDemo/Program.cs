@@ -101,6 +101,10 @@ namespace GeometryCalculator
         {
             return Math.PI * radius * radius;
         }
+        public static double CalculatePerimeter(double radius)
+        {
+            return 2 * Math.PI * radius;
+        }
 
     }
 
@@ -110,6 +114,10 @@ namespace GeometryCalculator
         {
             return 0.5 * baseLength * height;
         }
+        public static double CalculatePerimeter(double baseLength)
+        {
+            return 3 * baseLength;
+        }
     }
 
     public class Square
@@ -117,6 +125,10 @@ namespace GeometryCalculator
         public static double CalculateArea(double side)
         {
             return side * side;
+        }
+        public static double CalculatePerimeter(double side)
+        {
+            return 4 * side;
         }
     }
 
@@ -126,6 +138,10 @@ namespace GeometryCalculator
         {
             return baseLength * height;
         }
+        public static double CalculatePerimeter(double baseLength, double sideLen)
+        {
+            return 2 * (baseLength + sideLen);
+        }
     }
 
     public class Pentagon
@@ -133,6 +149,10 @@ namespace GeometryCalculator
         public static double CalculateArea(double side)
         {
             return 0.25 * Math.Sqrt(5 * (5 + 2 * Math.Sqrt(5))) * side * side;
+        }
+        public static double CalculatePerimeter(double side)
+        {
+            return 5 * side;
         }
 
     }
@@ -142,6 +162,10 @@ namespace GeometryCalculator
         public static double CalculateArea(double side)
         {
             return 3 * Math.Sqrt(3) * side * side / 2;
+        }
+        public static double CalculatePerimeter(double side)
+        {
+            return 6 * side;
         }
     }
 }
