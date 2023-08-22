@@ -321,6 +321,7 @@
       "System.Reflection.Metadata/1.6.0": {},
       "NUnitDemoGeometryCalculator/1.0.0": {
         "dependencies": {
+          "Microsoft.NET.Test.Sdk": "17.6.0",
           "NUnit": "3.13.3",
           "NUnit.ConsoleRunner": "3.16.3",
           "NUnit3TestAdapter": "4.5.0"

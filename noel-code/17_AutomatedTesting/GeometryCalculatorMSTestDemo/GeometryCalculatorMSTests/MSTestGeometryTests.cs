@@ -1,8 +1,8 @@
-﻿// Thiis is our standard system namespace to use most of what we are used to using
-// This line includes the namespace of the GeometryCalculator project where the shape classes are defined.
+﻿// This line includes the namespace of the GeometryCalculator project where the shape classes are defined.
 using GeometryCalculator;
 // This line includes the necessary namespace for MSTest framework.
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+// This is our standard system namespace to use most of what we are used to using
 using System;
 
 // This defines a new namespace specific to MSTest tests for the GeometryCalculator project.
