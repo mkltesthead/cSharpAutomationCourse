@@ -1,0 +1,1 @@
+This is the first line of the file created at the console.Let's append a line to this document.
