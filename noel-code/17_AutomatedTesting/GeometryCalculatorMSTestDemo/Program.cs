@@ -94,7 +94,6 @@ namespace GeometryCalculator
         }
     }
 
-
     public class Circle
     {
         public static double CalculateArea(double radius)
@@ -105,7 +104,6 @@ namespace GeometryCalculator
         {
             return 2 * Math.PI * radius;
         }
-
     }
 
     public class Triangle
@@ -154,7 +152,6 @@ namespace GeometryCalculator
         {
             return 5 * side;
         }
-
     }
 
     public class Hexagon

@@ -58,7 +58,6 @@
         {
             return 5 * side;
         }
-
     }
 
     public class Hexagon

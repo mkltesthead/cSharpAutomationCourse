@@ -7,81 +7,87 @@ namespace GeometryCalculatorXUnitTests
         [Fact]
         public void TestCircleArea()
         {
+            // Arrange
             double radius = 5;
             double expectedArea = Math.PI * radius * radius;
+
+            // Act
             double actualArea = Circle.CalculateArea(radius);
+
+            // Assert
             Assert.Equal(expectedArea, actualArea, 4);
         }
 
         [Fact]
         public void TestTriangleArea()
         {
+            // Arrange
             double baseLength = 4;
             double height = 3;
             double expectedArea = 0.5 * baseLength * height;
+
+            // Act
             double actualArea = Triangle.CalculateArea(baseLength, height);
+
+            // Assert
             Assert.Equal(expectedArea, actualArea, 4);
         }
 
         [Fact]
         public void TestSquareArea()
         {
-            //Arrange
+            // Arrange
             double side = 5;
             double expectedArea = side * side;
 
-            //Act
+            // Act
             double actualArea = Square.CalculateArea(side);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedArea, actualArea, 4);
-
         }
 
         [Fact]
         public void TestParallelogramArea()
         {
-            //Arrange
+            // Arrange
             double baseLen = 6;
             double height = 7;
             double expectedArea = baseLen * height;
 
-            //Act
+            // Act
             double actualArea = Parallelogram.CalculateArea(baseLen, height);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedArea, actualArea, 4);
-
         }
 
         [Fact]
         public void TestPentagonArea()
         {
-            //Arrange
+            // Arrange
             double side = 8;
             double expectedArea = 5 * 0.5 * side * side * Math.Sin(2 * Math.PI / 5);
 
-            //Act
+            // Act
             double actualArea = Pentagon.CalculateArea(side);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedArea, actualArea, 4);
-
         }
 
         [Fact]
         public void TestHexagonArea()
         {
-            //Arrange
+            // Arrange
             double side = 9;
             double expectedArea = 6 * 0.5 * side * side * Math.Sin(2 * Math.PI / 6);
 
-            //Act
+            // Act
             double actualArea = Hexagon.CalculateArea(side);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedArea, actualArea, 4);
-
         }
 
         [Fact]
@@ -101,78 +107,72 @@ namespace GeometryCalculatorXUnitTests
         [Fact]
         public void TestTrianglePerimeter()
         {
-            //Arrange
+            // Arrange
             double baseLength = 4;
-            double height = 3;
             double expectedPerimeter = 3 * baseLength;
 
-            //Act
+            // Act
             double actualPerimeter = Triangle.CalculatePerimeter(baseLength);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedPerimeter, actualPerimeter, 4);
-
         }
 
         [Fact]
         public void TestSquarePerimeter()
         {
-            //Arrange
+            // Arrange
             double side = 5;
             double expectedPerimeter = 4 * side;
 
-            //Act
+            // Act
             double actualPerimeter = Square.CalculatePerimeter(side);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedPerimeter, actualPerimeter, 4);
-
         }
 
         [Fact]
         public void TestParallelogramPerimeter()
         {
-            //Arrange
+            // Arrange
             double baseLen = 6;
             double sideLen = 7;
             double expectedPerimeter = 2 * (baseLen + sideLen);
 
-            //Act
+            // Act
             double actualPerimeter = Parallelogram.CalculatePerimeter(baseLen, sideLen);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedPerimeter, actualPerimeter, 4);
-
         }
 
         [Fact]
         public void TestPentagonPerimeter()
         {
-            //Arrange
+            // Arrange
             double side = 8;
             double expectedPerimeter = 5 * side;
 
-            //Act
+            // Act
             double actualPerimeter = Pentagon.CalculatePerimeter(side);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedPerimeter, actualPerimeter, 4);
-
         }
 
         [Fact]
         public void TestHexagonPerimeter()
         {
-            //Arrange
+            // Arrange
             double side = 9;
             double expectedPerimeter = 6 * side;
 
-            //Act
+            // Act
             double actualPerimeter = Hexagon.CalculatePerimeter(side);
 
-            //Assert
+            // Assert
             Assert.Equal(expectedPerimeter, actualPerimeter, 4);
-
         }
     }
 }
