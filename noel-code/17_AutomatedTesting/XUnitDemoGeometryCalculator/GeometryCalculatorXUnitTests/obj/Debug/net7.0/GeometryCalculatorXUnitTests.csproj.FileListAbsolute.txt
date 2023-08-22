@@ -103,7 +103,6 @@ C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\17_AutomatedTesting\X
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\obj\Debug\net7.0\GeometryCalculatorXUnitTests.pdb
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\obj\Debug\net7.0\GeometryCalculatorXUnitTests.genruntimeconfig.cache
 C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\obj\Debug\net7.0\ref\GeometryCalculatorXUnitTests.dll
-C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\bin\Debug\net7.0\CoverletSourceRootsMapping
 C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\bin\Debug\net7.0\testhost.exe
 C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\bin\Debug\net7.0\testhost.dll
 C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -208,3 +207,4 @@ C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeomet
 C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\obj\Debug\net7.0\GeometryCalculatorXUnitTests.pdb
 C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\obj\Debug\net7.0\GeometryCalculatorXUnitTests.genruntimeconfig.cache
 C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\obj\Debug\net7.0\ref\GeometryCalculatorXUnitTests.dll
+C:\dev\SDET\cSharpAutomationCourse\noel-code\17_AutomatedTesting\XUnitDemoGeometryCalculator\GeometryCalculatorXUnitTests\bin\Debug\net7.0\CoverletSourceRootsMapping_GeometryCalculatorXUnitTests
