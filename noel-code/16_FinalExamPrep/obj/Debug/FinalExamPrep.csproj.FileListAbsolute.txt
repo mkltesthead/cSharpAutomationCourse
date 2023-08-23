@@ -1,0 +1,8 @@
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\bin\Debug\FinalExamPrep.exe.config
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\bin\Debug\FinalExamPrep.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\bin\Debug\FinalExamPrep.pdb
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\obj\Debug\FinalExamPrep.csproj.AssemblyReference.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\obj\Debug\FinalExamPrep.csproj.SuggestedBindingRedirects.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\obj\Debug\FinalExamPrep.csproj.CoreCompileInputs.cache
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\obj\Debug\FinalExamPrep.exe
+C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\FinalExamPrep\obj\Debug\FinalExamPrep.pdb
