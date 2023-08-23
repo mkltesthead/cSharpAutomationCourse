@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\bin\Debug\WorkingWithStrings.exe.config
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\bin\Debug\WorkingWithStrings.exe
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\bin\Debug\WorkingWithStrings.pdb
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\obj\Debug\WorkingWithStrings.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\obj\Debug\WorkingWithStrings.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\obj\Debug\WorkingWithStrings.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\obj\Debug\WorkingWithStrings.exe
-C:\Users\MichaelLarsen\source\repos\WorkingWithStrings\obj\Debug\WorkingWithStrings.pdb

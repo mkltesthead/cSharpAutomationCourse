@@ -1,8 +1,0 @@
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\bin\Debug\musicLibrary.exe.config
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\bin\Debug\musicLibrary.exe
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\bin\Debug\musicLibrary.pdb
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\obj\Debug\musicLibrary.csproj.AssemblyReference.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\obj\Debug\musicLibrary.csproj.SuggestedBindingRedirects.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\obj\Debug\musicLibrary.csproj.CoreCompileInputs.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\obj\Debug\musicLibrary.exe
-C:\dev\SDET\cSharpAutomationCourse\noel-code\musicLibrary\obj\Debug\musicLibrary.pdb

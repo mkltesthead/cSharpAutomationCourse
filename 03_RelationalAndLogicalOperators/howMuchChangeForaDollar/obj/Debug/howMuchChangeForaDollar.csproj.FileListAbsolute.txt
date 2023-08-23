@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\bin\Debug\howMuchChangeForaDollar.exe.config
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\bin\Debug\howMuchChangeForaDollar.exe
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\bin\Debug\howMuchChangeForaDollar.pdb
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\obj\Debug\howMuchChangeForaDollar.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\obj\Debug\howMuchChangeForaDollar.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\obj\Debug\howMuchChangeForaDollar.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\obj\Debug\howMuchChangeForaDollar.exe
-C:\Users\MichaelLarsen\source\repos\howMuchChangeForaDollar\obj\Debug\howMuchChangeForaDollar.pdb

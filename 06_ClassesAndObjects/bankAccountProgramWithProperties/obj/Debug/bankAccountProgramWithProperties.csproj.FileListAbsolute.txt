@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\obj\Debug\bankAccountProgramWithProperties.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\obj\Debug\bankAccountProgramWithProperties.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\obj\Debug\bankAccountProgramWithProperties.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\bin\Debug\bankAccountProgramWithProperties.exe.config
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\bin\Debug\bankAccountProgramWithProperties.exe
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\bin\Debug\bankAccountProgramWithProperties.pdb
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\obj\Debug\bankAccountProgramWithProperties.exe
-C:\Users\MichaelLarsen\source\repos\bankAccountProgramWithProperties\obj\Debug\bankAccountProgramWithProperties.pdb

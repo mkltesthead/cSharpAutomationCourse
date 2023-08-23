@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\bin\Debug\HomeworkFileManagementSystem.exe.config
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\bin\Debug\HomeworkFileManagementSystem.exe
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\bin\Debug\HomeworkFileManagementSystem.pdb
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\obj\Debug\HomeworkFileManagementSystem.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\obj\Debug\HomeworkFileManagementSystem.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\obj\Debug\HomeworkFileManagementSystem.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\obj\Debug\HomeworkFileManagementSystem.exe
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\HomeworkFileManagementSystem\obj\Debug\HomeworkFileManagementSystem.pdb

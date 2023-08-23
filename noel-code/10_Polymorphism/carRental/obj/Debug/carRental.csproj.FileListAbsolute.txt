@@ -1,8 +1,0 @@
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\bin\Debug\carRental.exe.config
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\bin\Debug\carRental.exe
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\bin\Debug\carRental.pdb
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\obj\Debug\carRental.csproj.AssemblyReference.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\obj\Debug\carRental.csproj.SuggestedBindingRedirects.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\obj\Debug\carRental.csproj.CoreCompileInputs.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\obj\Debug\carRental.exe
-C:\dev\SDET\cSharpAutomationCourse\noel-code\10_Polymorphism\carRental\obj\Debug\carRental.pdb

@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\StudentArray\bin\Debug\StudentArray.exe.config
-C:\Users\MichaelLarsen\source\repos\StudentArray\bin\Debug\StudentArray.exe
-C:\Users\MichaelLarsen\source\repos\StudentArray\bin\Debug\StudentArray.pdb
-C:\Users\MichaelLarsen\source\repos\StudentArray\obj\Debug\StudentArray.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\StudentArray\obj\Debug\StudentArray.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\StudentArray\obj\Debug\StudentArray.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\StudentArray\obj\Debug\StudentArray.exe
-C:\Users\MichaelLarsen\source\repos\StudentArray\obj\Debug\StudentArray.pdb

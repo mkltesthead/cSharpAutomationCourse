@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\bin\Debug\paymentProgramObjectOriented.exe.config
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\bin\Debug\paymentProgramObjectOriented.exe
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\bin\Debug\paymentProgramObjectOriented.pdb
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\obj\Debug\paymentProgramObjectOriented.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\obj\Debug\paymentProgramObjectOriented.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\obj\Debug\paymentProgramObjectOriented.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\obj\Debug\paymentProgramObjectOriented.exe
-C:\Users\MichaelLarsen\source\repos\paymentProgramObjectOriented\obj\Debug\paymentProgramObjectOriented.pdb

@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\bin\Debug\salesCalculatorDoWhileProgram.exe.config
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\bin\Debug\salesCalculatorDoWhileProgram.exe
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\bin\Debug\salesCalculatorDoWhileProgram.pdb
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\obj\Debug\salesCalculatorDoWhileProgram.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\obj\Debug\salesCalculatorDoWhileProgram.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\obj\Debug\salesCalculatorDoWhileProgram.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\obj\Debug\salesCalculatorDoWhileProgram.exe
-C:\Users\MichaelLarsen\source\repos\salesCalculatorDoWhileProgram\obj\Debug\salesCalculatorDoWhileProgram.pdb

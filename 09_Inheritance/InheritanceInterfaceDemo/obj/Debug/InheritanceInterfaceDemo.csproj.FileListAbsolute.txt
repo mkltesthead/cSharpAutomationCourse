@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\bin\Debug\InheritanceInterfaceDemo.exe.config
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\bin\Debug\InheritanceInterfaceDemo.exe
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\bin\Debug\InheritanceInterfaceDemo.pdb
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\obj\Debug\InheritanceInterfaceDemo.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\obj\Debug\InheritanceInterfaceDemo.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\obj\Debug\InheritanceInterfaceDemo.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\obj\Debug\InheritanceInterfaceDemo.exe
-C:\Users\MichaelLarsen\source\repos\InheritanceInterfaceDemo\obj\Debug\InheritanceInterfaceDemo.pdb

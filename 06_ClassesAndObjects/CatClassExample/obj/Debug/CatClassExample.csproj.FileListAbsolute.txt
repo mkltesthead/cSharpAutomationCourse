@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\CatClassExample\bin\Debug\CatClassExample.exe.config
-C:\Users\MichaelLarsen\source\repos\CatClassExample\bin\Debug\CatClassExample.exe
-C:\Users\MichaelLarsen\source\repos\CatClassExample\bin\Debug\CatClassExample.pdb
-C:\Users\MichaelLarsen\source\repos\CatClassExample\obj\Debug\CatClassExample.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\CatClassExample\obj\Debug\CatClassExample.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\CatClassExample\obj\Debug\CatClassExample.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\CatClassExample\obj\Debug\CatClassExample.exe
-C:\Users\MichaelLarsen\source\repos\CatClassExample\obj\Debug\CatClassExample.pdb

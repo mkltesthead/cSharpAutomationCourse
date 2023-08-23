@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\bin\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.exe.config
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\bin\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.exe
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\bin\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.pdb
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\obj\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\obj\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\obj\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\obj\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.exe
-C:\Users\MichaelLarsen\source\repos\jebsForLoopCoffeeHouseCoffeeRecipeApp\obj\Debug\jebsForLoopCoffeeHouseCoffeeRecipeApp.pdb

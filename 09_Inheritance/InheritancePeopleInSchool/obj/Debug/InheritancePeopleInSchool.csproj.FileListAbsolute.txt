@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\bin\Debug\InheritancePeopleInSchool.exe.config
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\bin\Debug\InheritancePeopleInSchool.exe
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\bin\Debug\InheritancePeopleInSchool.pdb
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\obj\Debug\InheritancePeopleInSchool.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\obj\Debug\InheritancePeopleInSchool.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\obj\Debug\InheritancePeopleInSchool.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\obj\Debug\InheritancePeopleInSchool.exe
-C:\Users\MichaelLarsen\source\repos\InheritancePeopleInSchool\obj\Debug\InheritancePeopleInSchool.pdb

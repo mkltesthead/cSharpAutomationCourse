@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\obj\Debug\salesPaymentCalculatorProgramV6.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\obj\Debug\salesPaymentCalculatorProgramV6.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\obj\Debug\salesPaymentCalculatorProgramV6.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\bin\Debug\salesPaymentCalculatorProgramV6.exe.config
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\bin\Debug\salesPaymentCalculatorProgramV6.exe
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\bin\Debug\salesPaymentCalculatorProgramV6.pdb
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\obj\Debug\salesPaymentCalculatorProgramV6.exe
-C:\Users\MichaelLarsen\source\repos\salesPaymentCalculatorProgramV6\obj\Debug\salesPaymentCalculatorProgramV6.pdb

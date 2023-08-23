@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\bin\Debug\catClassExampleConstructor.exe.config
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\bin\Debug\catClassExampleConstructor.exe
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\bin\Debug\catClassExampleConstructor.pdb
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\obj\Debug\catClassExampleConstructor.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\obj\Debug\catClassExampleConstructor.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\obj\Debug\catClassExampleConstructor.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\obj\Debug\catClassExampleConstructor.exe
-C:\Users\MichaelLarsen\source\repos\catClassExampleConstructor\obj\Debug\catClassExampleConstructor.pdb

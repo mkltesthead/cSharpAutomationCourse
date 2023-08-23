@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\bin\Debug\staticvariableScopeExample.exe.config
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\bin\Debug\staticvariableScopeExample.exe
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\bin\Debug\staticvariableScopeExample.pdb
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\obj\Debug\staticvariableScopeExample.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\obj\Debug\staticvariableScopeExample.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\obj\Debug\staticvariableScopeExample.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\obj\Debug\staticvariableScopeExample.exe
-C:\Users\MichaelLarsen\source\repos\staticvariableScopeExample\obj\Debug\staticvariableScopeExample.pdb

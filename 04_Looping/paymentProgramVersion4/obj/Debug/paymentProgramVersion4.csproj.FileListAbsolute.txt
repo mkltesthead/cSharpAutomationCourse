@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\bin\Debug\paymentProgramVersion4.exe.config
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\bin\Debug\paymentProgramVersion4.exe
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\bin\Debug\paymentProgramVersion4.pdb
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\obj\Debug\paymentProgramVersion4.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\obj\Debug\paymentProgramVersion4.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\obj\Debug\paymentProgramVersion4.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\obj\Debug\paymentProgramVersion4.exe
-C:\Users\MichaelLarsen\source\repos\paymentProgramVersion4\obj\Debug\paymentProgramVersion4.pdb

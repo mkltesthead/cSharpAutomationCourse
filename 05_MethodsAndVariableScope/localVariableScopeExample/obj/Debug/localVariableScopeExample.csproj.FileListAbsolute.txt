@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\bin\Debug\localVariableScopeExample.exe.config
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\bin\Debug\localVariableScopeExample.exe
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\bin\Debug\localVariableScopeExample.pdb
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\obj\Debug\localVariableScopeExample.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\obj\Debug\localVariableScopeExample.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\obj\Debug\localVariableScopeExample.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\obj\Debug\localVariableScopeExample.exe
-C:\Users\MichaelLarsen\source\repos\localVariableScopeExample\obj\Debug\localVariableScopeExample.pdb

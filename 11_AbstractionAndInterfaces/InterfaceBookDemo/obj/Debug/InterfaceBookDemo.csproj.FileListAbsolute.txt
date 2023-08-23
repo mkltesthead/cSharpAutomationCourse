@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\bin\Debug\InterfaceBookDemo.exe.config
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\bin\Debug\InterfaceBookDemo.exe
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\bin\Debug\InterfaceBookDemo.pdb
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\obj\Debug\InterfaceBookDemo.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\obj\Debug\InterfaceBookDemo.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\obj\Debug\InterfaceBookDemo.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\obj\Debug\InterfaceBookDemo.exe
-C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\11_AbstractionAndInterfaces\InterfaceBookDemo\obj\Debug\InterfaceBookDemo.pdb

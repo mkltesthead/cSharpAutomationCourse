@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\bin\Debug\InheritanceChainofDemo.exe.config
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\bin\Debug\InheritanceChainofDemo.exe
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\bin\Debug\InheritanceChainofDemo.pdb
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\obj\Debug\InheritanceChainofDemo.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\obj\Debug\InheritanceChainofDemo.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\obj\Debug\InheritanceChainofDemo.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\obj\Debug\InheritanceChainofDemo.exe
-C:\Users\MichaelLarsen\source\repos\InheritanceChainofDemo\obj\Debug\InheritanceChainofDemo.pdb

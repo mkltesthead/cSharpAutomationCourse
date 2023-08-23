@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\obj\Debug\UtilityBillCalculator.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\obj\Debug\UtilityBillCalculator.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\obj\Debug\UtilityBillCalculator.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\bin\Debug\UtilityBillCalculator.exe.config
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\bin\Debug\UtilityBillCalculator.exe
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\bin\Debug\UtilityBillCalculator.pdb
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\obj\Debug\UtilityBillCalculator.exe
-C:\Users\MichaelLarsen\source\repos\UtilityBillCalculator\obj\Debug\UtilityBillCalculator.pdb

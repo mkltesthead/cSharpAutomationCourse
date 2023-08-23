@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\GraderApp\bin\Debug\GraderApp.exe.config
-C:\Users\MichaelLarsen\source\repos\GraderApp\bin\Debug\GraderApp.exe
-C:\Users\MichaelLarsen\source\repos\GraderApp\bin\Debug\GraderApp.pdb
-C:\Users\MichaelLarsen\source\repos\GraderApp\obj\Debug\GraderApp.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\GraderApp\obj\Debug\GraderApp.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\GraderApp\obj\Debug\GraderApp.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\GraderApp\obj\Debug\GraderApp.exe
-C:\Users\MichaelLarsen\source\repos\GraderApp\obj\Debug\GraderApp.pdb

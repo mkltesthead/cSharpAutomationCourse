@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\obj\Debug\variableScopeLineofCreditCheck.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\obj\Debug\variableScopeLineofCreditCheck.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\obj\Debug\variableScopeLineofCreditCheck.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\bin\Debug\variableScopeLineofCreditCheck.exe.config
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\bin\Debug\variableScopeLineofCreditCheck.exe
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\bin\Debug\variableScopeLineofCreditCheck.pdb
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\obj\Debug\variableScopeLineofCreditCheck.exe
-C:\Users\MichaelLarsen\source\repos\variableScopeLineofCreditCheck\obj\Debug\variableScopeLineofCreditCheck.pdb

@@ -1,8 +1,0 @@
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\bin\Debug\calculator.exe.config
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\bin\Debug\calculator.exe
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\bin\Debug\calculator.pdb
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\obj\Debug\calculator.csproj.SuggestedBindingRedirects.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\obj\Debug\calculator.exe
-C:\dev\SDET\cSharpAutomationCourse\noel-code\calculator\obj\Debug\calculator.pdb

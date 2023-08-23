@@ -1,8 +1,0 @@
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\bin\Debug\personReturnObjectExample.exe.config
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\bin\Debug\personReturnObjectExample.exe
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\bin\Debug\personReturnObjectExample.pdb
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\obj\Debug\personReturnObjectExample.csproj.AssemblyReference.cache
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\obj\Debug\personReturnObjectExample.csproj.SuggestedBindingRedirects.cache
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\obj\Debug\personReturnObjectExample.csproj.CoreCompileInputs.cache
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\obj\Debug\personReturnObjectExample.exe
-C:\Users\MichaelLarsen\source\repos\personReturnObjectExample\obj\Debug\personReturnObjectExample.pdb
