@@ -78,7 +78,7 @@ namespace GeometryCalculatorMSTests
         {
             // Arrange
             double side = 8;
-            double expectedArea = 5 * 0.5 * side * side * Math.Sin(2 * Math.PI / 5);
+            double expectedArea = 5 * 0.5 * side * 0.5 * side / Math.Tan(Math.PI / 5);
 
             // Act
             double actualArea = Pentagon.CalculateArea(side);
