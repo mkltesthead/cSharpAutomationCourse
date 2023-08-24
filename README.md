@@ -19,4 +19,7 @@ The current listing is as follows (you should see these directories):
 12_CollectionsFramework
 13_Exceptions
 14_FileIO
-15_UnitTestingIntro
+15_ModularProgramming
+16_FinalExamPrep
+17_AutomatedTesting
+18_TestingAssertions
