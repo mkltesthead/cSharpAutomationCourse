@@ -1,49 +1,82 @@
-using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using GeometryCalcLibrary;
+using System.Security.Policy;
 
-namespace GeometryCalcTestsNUnit
+namespace GeometryCalcTestsMSTest
 {
-    [TestFixture]
+    [TestClass]
+    [TestCategory("Circle tests")]
     public class CircleTests
     {
-        [Test]
+        [ClassInitialize]
+        public static void CircleTestsInit(TestContext context)
+        {
+            Console.WriteLine("Run before circle test series.");
+        }
+
+        [TestInitialize]
+        public void RunMeFirst()
+        {
+            Console.WriteLine("Run before each circle test.");
+        }
+
+        [TestMethod]
+        [TestCategory("Area tests")]
         public void CircleAreaCalculation()
         {
             double expectedArea = Math.PI * 5 * 5; // Assuming radius is 5
             double actualArea = Circle.CalculateArea(5);
-            Assert.That(actualArea, Is.EqualTo(expectedArea));
+            Assert.AreEqual(expectedArea, actualArea);
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Perimeter tests")]
+        //[Ignore("To be fixed")]
         public void CirclePerimeterCalculation()
         {
             double expectedPerimeter = 2 * Math.PI * 5; // Assuming radius is 5
             double actualPerimeter = Circle.CalculatePerimeter(5);
-            Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
+            Assert.AreEqual(expectedPerimeter, actualPerimeter);
+        }
+
+        [TestCleanup]
+        public void RunMeLast()
+        {
+            Console.WriteLine("Run after each circle test.");
+        }
+
+        [ClassCleanup]
+        public static void CircleCleanup()
+        {
+            Console.WriteLine("Run after circle test series.");
         }
     }
 
-    [TestFixture]
+    [TestClass]
+    [TestCategory("Triangle tests")]
     public class TriangleTests
     {
-        [Test]
+        [TestMethod]
+        [TestCategory("Area tests")]
         public void TriangleAreaCalculation()
         {
             double expectedArea = 10.0; // Assuming base length = 5 and height = 4
             double actualArea = Triangle.CalculateArea(5, 4);
-            Assert.That(actualArea, Is.EqualTo(expectedArea));
+            Assert.AreEqual(expectedArea, actualArea);
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Perimeter tests")]
         public void TrianglePerimeterCalculation()
         {
             double expectedPerimeter = 12.0; // Assuming side lengths are 4, 5, and 3
             double actualPerimeter = Triangle.CalculatePerimeter(4, 5, 3);
-            Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
+            Assert.AreEqual(expectedPerimeter, actualPerimeter);
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Right angled tests")]
         public void TriangleRightAngled()
         {
             Assert.IsTrue(Triangle.IsRightAngled(3, 4, 5));
@@ -61,7 +94,8 @@ namespace GeometryCalcTestsNUnit
             Assert.IsTrue(Triangle.IsRightAngled(-5, -4, -3));
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Right angled tests")]
         public void TriangleNotRightAngled()
         {
             Assert.IsFalse(Triangle.IsRightAngled(2, 4, 5));
@@ -80,83 +114,93 @@ namespace GeometryCalcTestsNUnit
         }
     }
 
-    [TestFixture]
+    [TestClass]
+    [TestCategory("Square tests")]
     public class SquareTests
     {
-        [Test]
+        [TestMethod]
+        [TestCategory("Area tests")]
         public void SquareAreaCalculation()
         {
             double expectedArea = 25; // Assuming side length is 5
             double actualArea = Square.CalculateArea(5);
-            Assert.That(actualArea, Is.EqualTo(expectedArea));
+            Assert.AreEqual(expectedArea, actualArea);
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Perimeter tests")]
         public void SquarePerimeterCalculation()
         {
             double expectedPerimeter = 20; // Assuming side length is 5
             double actualPerimeter = Square.CalculatePerimeter(5);
-            Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
+            Assert.AreEqual(expectedPerimeter, actualPerimeter);
         }
     }
 
-    [TestFixture]
+    [TestClass]
+    [TestCategory("Parallelogram tests")]
     public class ParallelogramTests
     {
-        [Test]
+        [TestMethod]
+        [TestCategory("Area tests")]
         public void ParallelogramAreaCalculation()
         {
             double expectedArea = 10 * 7; // Assuming base length is 10 and height is 7
             double actualArea = Parallelogram.CalculateArea(10, 7);
-            Assert.That(actualArea, Is.EqualTo(expectedArea));
+            Assert.AreEqual(expectedArea, actualArea);
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Perimeter tests")]
         public void ParallelogramPerimeterCalculation()
         {
             double expectedPerimeter = 2 * (10 + 7); // Assuming base length is 10 and height is 7
             double actualPerimeter = Parallelogram.CalculatePerimeter(10, 7);
-            Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
+            Assert.AreEqual(expectedPerimeter, actualPerimeter);
         }
     }
-
-    [TestFixture]
+    [TestClass]
+    [TestCategory("Pentagon tests")]
     public class PentagonTests
     {
-        [Test]
+        [TestMethod]
+        [TestCategory("Area tests")]
         public void PentagonAreaCalculation()
         {
             double expectedArea = 0.25 * Math.Sqrt(5 * (5 + 2 * Math.Sqrt(5))) * 7 * 7; // Assuming side length is 7
             double actualArea = Pentagon.CalculateArea(7);
-            Assert.That(actualArea, Is.EqualTo(expectedArea).Within(0.0001)); // Adding a delta to account for potential floating-point errors
+            Assert.AreEqual(expectedArea, actualArea, 0.0001); // Adding a delta to account for potential floating-point errors
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Perimeter tests")]
         public void PentagonPerimeterCalculation()
         {
             double expectedPerimeter = 5 * 7; // Assuming side length is 7
             double actualPerimeter = Pentagon.CalculatePerimeter(7);
-            Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter).Within(0.0001)); // Adding a delta to account for potential floating-point errors
+            Assert.AreEqual(expectedPerimeter, actualPerimeter, 0.0001); // Adding a delta to account for potential floating-point errors
         }
     }
-
-    [TestFixture]
+    [TestClass]
+    [TestCategory("Hexagon tests")]
     public class HexagonTests
     {
-        [Test]
+        [TestMethod]
+        [TestCategory("Area tests")]
         public void HexagonAreaCalculation()
         {
             double expectedArea = 3 * Math.Sqrt(3) * 5 * 5 / 2; // Assuming side length is 5
             double actualArea = Hexagon.CalculateArea(5);
-            Assert.That(actualArea, Is.EqualTo(expectedArea).Within(0.0001)); // Adding delta for floating-point precision
+            Assert.AreEqual(expectedArea, actualArea, 0.0001); // Adding delta for floating-point precision
         }
 
-        [Test]
+        [TestMethod]
+        [TestCategory("Perimeter tests")]
         public void HexagonPerimeterCalculation()
         {
             double expectedPerimeter = 6 * 5; // Assuming side length is 5
             double actualPerimeter = Hexagon.CalculatePerimeter(5);
-            Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
+            Assert.AreEqual(expectedPerimeter, actualPerimeter);
         }
     }
 }
