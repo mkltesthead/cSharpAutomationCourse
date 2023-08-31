@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GeometryCalculatorLibrary\GeometryCalculatorLibrary.csproj" />
+    <ProjectReference Include="..\GeometryCalculatorSolution\GeometryCalculatorApp.csproj" />
   </ItemGroup>
 
 </Project>

@@ -30,7 +30,7 @@ namespace GeometryCalculatorTestsMSTest
         {
             double expected = 0.1 + 0.2;
             double actual = ShapeUtilities.CalculateResultWithFloats();
-            Assert.AreEqual(expected, actual, 0.01);
+            Assert.AreEqual(expected, actual, 0.00001);
         }
 
         [TestMethod]
@@ -47,4 +47,5 @@ namespace GeometryCalculatorTestsMSTest
             Assert.ThrowsException<ArgumentException>(() => ShapeUtilities.ThrowExceptionOnInvalidInput(-1));
         }
     }
+
 }
