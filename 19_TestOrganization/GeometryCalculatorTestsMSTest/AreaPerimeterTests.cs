@@ -11,6 +11,7 @@ namespace GeometryCalculatorTestsMSTest
         {
             Console.WriteLine("Run me at the start of the Circle Test Series.");
         }
+
         [TestInitialize]
         public void RunMeFirst()
         {
@@ -19,14 +20,14 @@ namespace GeometryCalculatorTestsMSTest
 
         [TestMethod]
         [TestCategory("Area Tests")]
-        // [Ignore("Temporarily Disabled for Refactoring")]
+        //[Ignore("Temporarily Disabled for Refactoring")]
         public void CircleAreaCalculation()
         {
-            Console.WriteLine("Checking out the Area of a Circle");
+            // Console.WriteLine("Checking out the Area of a Circle");
             double expectedArea = Math.PI * 5 * 5; // Assuming radius is 5
             double actualArea = Circle.CalculateArea(5);
             Assert.AreEqual(expectedArea, actualArea);
-            Console.WriteLine("Our test PASSES!!!");
+            // Console.WriteLine("Our test PASSES!!!");
         }
 
         [TestMethod]
@@ -50,7 +51,6 @@ namespace GeometryCalculatorTestsMSTest
         {
             Console.WriteLine("Run me at the end of all of the Circle Tests!");
         }
-
     }
 
     [TestClass]
