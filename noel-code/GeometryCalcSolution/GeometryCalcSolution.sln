@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcLibrary", "Geom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcTestsMSTest", "GeometryCalcTestsMSTest\GeometryCalcTestsMSTest.csproj", "{06FA03C0-49F5-45DF-BE76-DA4B28BE657B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryCalcTestsNUnit", "GeometryCalcTestsNUnit\GeometryCalcTestsNUnit.csproj", "{7AB8216F-247A-46BE-8C85-D18605B0B32D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcTestsNUnit", "GeometryCalcTestsNUnit\GeometryCalcTestsNUnit.csproj", "{7AB8216F-247A-46BE-8C85-D18605B0B32D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryCalcTestsXUnit", "GeometryCalcTestsXUnit\GeometryCalcTestsXUnit.csproj", "{14D6DBFF-1E68-480F-9086-F59CAF68DE08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcTestsXUnit", "GeometryCalcTestsXUnit\GeometryCalcTestsXUnit.csproj", "{14D6DBFF-1E68-480F-9086-F59CAF68DE08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
