@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcApp", "GeometryCalcApp\GeometryCalcApp.csproj", "{741790DE-6651-46BF-8D27-A68997478A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcLibrary", "GeometryCalcLibrary\GeometryCalcLibrary.csproj", "{2E075C2E-B965-46C2-8E82-1649565F75B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcTestsMSTest", "GeometryCalcTestsMSTest\GeometryCalcTestsMSTest.csproj", "{06FA03C0-49F5-45DF-BE76-DA4B28BE657B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcTestsNUnit", "GeometryCalcTestsNUnit\GeometryCalcTestsNUnit.csproj", "{7AB8216F-247A-46BE-8C85-D18605B0B32D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalcTestsXUnit", "GeometryCalcTestsXUnit\GeometryCalcTestsXUnit.csproj", "{14D6DBFF-1E68-480F-9086-F59CAF68DE08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{741790DE-6651-46BF-8D27-A68997478A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741790DE-6651-46BF-8D27-A68997478A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741790DE-6651-46BF-8D27-A68997478A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741790DE-6651-46BF-8D27-A68997478A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E075C2E-B965-46C2-8E82-1649565F75B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E075C2E-B965-46C2-8E82-1649565F75B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E075C2E-B965-46C2-8E82-1649565F75B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E075C2E-B965-46C2-8E82-1649565F75B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FA03C0-49F5-45DF-BE76-DA4B28BE657B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FA03C0-49F5-45DF-BE76-DA4B28BE657B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FA03C0-49F5-45DF-BE76-DA4B28BE657B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FA03C0-49F5-45DF-BE76-DA4B28BE657B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB8216F-247A-46BE-8C85-D18605B0B32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB8216F-247A-46BE-8C85-D18605B0B32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB8216F-247A-46BE-8C85-D18605B0B32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB8216F-247A-46BE-8C85-D18605B0B32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D6DBFF-1E68-480F-9086-F59CAF68DE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D6DBFF-1E68-480F-9086-F59CAF68DE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D6DBFF-1E68-480F-9086-F59CAF68DE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D6DBFF-1E68-480F-9086-F59CAF68DE08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77753B99-F0C0-41D9-83BC-AA1A4D932B53}
+	EndGlobalSection
+EndGlobal
