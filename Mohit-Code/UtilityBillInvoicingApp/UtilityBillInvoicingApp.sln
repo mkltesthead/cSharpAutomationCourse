@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityBillInvoicingApp", "UtilityBillInvoicingApp\UtilityBillInvoicingApp.csproj", "{FD8C352C-FE62-4779-B8F8-20C21F483136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD8C352C-FE62-4779-B8F8-20C21F483136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8C352C-FE62-4779-B8F8-20C21F483136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8C352C-FE62-4779-B8F8-20C21F483136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8C352C-FE62-4779-B8F8-20C21F483136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90A60496-A119-40B8-9F45-5CF21EC08663}
+	EndGlobalSection
+EndGlobal
