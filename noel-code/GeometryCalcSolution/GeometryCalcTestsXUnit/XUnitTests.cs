@@ -7,19 +7,67 @@ namespace GeometryCalcTestsXUnit
     {
         [Fact]
         [Trait("Category", "Area tests")]
-        public void CircleAreaCalculation()
+        public void CircleAreaCalculation1()
         {
             double expectedArea = Math.PI * 5 * 5; // Assuming radius is 5
             double actualArea = Circle.CalculateArea(5);
             Assert.Equal(expectedArea, actualArea);
         }
 
-        [Fact]
-        [Trait("Category", "Perimeter tests")]
-        public void CirclePerimeterCalculation()
+        [Theory]
+        [Trait("Category", "Area tests")]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        [InlineData(5)]
+        [InlineData(6)]
+        [InlineData(7)]
+        [InlineData(8)]
+        [InlineData(9)]
+        public void CircleAreaCalculation2(double radius)
         {
-            double expectedPerimeter = 2 * Math.PI * 5; // Assuming radius is 5
-            double actualPerimeter = Circle.CalculatePerimeter(5);
+            double expectedArea = Math.PI * radius * radius;
+            double actualArea = Circle.CalculateArea(radius);
+            Assert.Equal(expectedArea, actualArea);
+        }
+
+        public static TheoryData<double> CircleTestData()
+        {
+            var data = new TheoryData<double>
+            {
+                { 0},
+                { 1},
+                { 2},
+                { 3},
+                { 4},
+                { 5},
+                { 6},
+                { 7},
+                { 8},
+                { 9}
+            };
+            return data;
+        }
+
+        [Theory]
+        [Trait("Category", "Area tests")]
+        [MemberData(nameof(CircleTestData))]
+        public void CircleAreaCalculation3(double radius)
+        {
+            double expectedArea = Math.PI * radius * radius;
+            double actualArea = Circle.CalculateArea(radius);
+            Assert.Equal(expectedArea, actualArea);
+        }
+
+        [Theory]
+        [Trait("Category", "Perimeter tests")]
+        [MemberData(nameof(CircleTestData))]
+        public void CirclePerimeterCalculation(double radius)
+        {
+            double expectedPerimeter = 2 * Math.PI * radius; // Assuming radius is 5
+            double actualPerimeter = Circle.CalculatePerimeter(radius);
             Assert.Equal(expectedPerimeter, actualPerimeter);
         }
     }
@@ -27,21 +75,41 @@ namespace GeometryCalcTestsXUnit
     [Trait("Category", "Triangle tests")]
     public class TriangleTests
     {
-        [Fact]
+        [Theory]
         [Trait("Category", "Area tests")]
-        public void TriangleAreaCalculation()
+        [InlineData(0, 1)]
+        [InlineData(1, 2)]
+        [InlineData(2, 3)]
+        [InlineData(3, 4)]
+        [InlineData(4, 5)]
+        [InlineData(5, 6)]
+        [InlineData(6, 7)]
+        [InlineData(7, 8)]
+        [InlineData(8, 9)]
+        [InlineData(9, 0)]
+        public void TriangleAreaCalculation(double mybase, double myheight)
         {
-            double expectedArea = 10.0; // Assuming base length = 5 and height = 4
-            double actualArea = Triangle.CalculateArea(5, 4);
+            double expectedArea = 0.5 * mybase * myheight; // Assuming base length = 5 and height = 4
+            double actualArea = Triangle.CalculateArea(mybase, myheight);
             Assert.Equal(expectedArea, actualArea);
         }
 
-        [Fact]
+        [Theory]
         [Trait("Category", "Perimeter tests")]
-        public void TrianglePerimeterCalculation()
+        [InlineData(0, 1, 2)]
+        [InlineData(1, 2, 3)]
+        [InlineData(2, 3, 4)]
+        [InlineData(3, 4, 5)]
+        [InlineData(4, 5, 6)]
+        [InlineData(5, 6, 7)]
+        [InlineData(6, 7, 8)]
+        [InlineData(7, 8, 9)]
+        [InlineData(8, 9, 0)]
+        [InlineData(9, 0, 1)]
+        public void TrianglePerimeterCalculation(double a, double b, double c)
         {
-            double expectedPerimeter = 12.0; // Assuming side lengths are 4, 5, and 3
-            double actualPerimeter = Triangle.CalculatePerimeter(4, 5, 3);
+            double expectedPerimeter = a + b + c; // Assuming side lengths are 4, 5, and 3
+            double actualPerimeter = Triangle.CalculatePerimeter(a, b, c);
             Assert.Equal(expectedPerimeter, actualPerimeter);
         }
 
