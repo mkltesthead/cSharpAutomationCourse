@@ -21,22 +21,42 @@ namespace GeometryCalcTestsMSTest
             Console.WriteLine("Run before each circle test.");
         }
 
-        [TestMethod]
+        [DataTestMethod]
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [DataRow(4)]
+        [DataRow(5)]
+        [DataRow(6)]
+        [DataRow(7)]
+        [DataRow(8)]
+        [DataRow(9)]
         [TestCategory("Area tests")]
-        public void CircleAreaCalculation()
+        public void CircleAreaCalculation(double radius)
         {
-            double expectedArea = Math.PI * 5 * 5; // Assuming radius is 5
-            double actualArea = Circle.CalculateArea(5);
+            double expectedArea = Math.PI * radius * radius;
+            double actualArea = Circle.CalculateArea(radius);
             Assert.AreEqual(expectedArea, actualArea);
         }
 
-        [TestMethod]
+        [DataTestMethod]
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [DataRow(4)]
+        [DataRow(5)]
+        [DataRow(6)]
+        [DataRow(7)]
+        [DataRow(8)]
+        [DataRow(9)]
         [TestCategory("Perimeter tests")]
         //[Ignore("To be fixed")]
-        public void CirclePerimeterCalculation()
+        public void CirclePerimeterCalculation(double radius)
         {
-            double expectedPerimeter = 2 * Math.PI * 5; // Assuming radius is 5
-            double actualPerimeter = Circle.CalculatePerimeter(5);
+            double expectedPerimeter = 2 * Math.PI * radius;
+            double actualPerimeter = Circle.CalculatePerimeter(radius);
             Assert.AreEqual(expectedPerimeter, actualPerimeter);
         }
 

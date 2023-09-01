@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System;
 using GeometryCalcLibrary;
+using System.Collections.Generic;
 
 namespace GeometryCalcTestsNUnit
 {
@@ -19,22 +20,37 @@ namespace GeometryCalcTestsNUnit
         {
             Console.WriteLine("Run before each circle test.");
         }
+        private static IEnumerable<object[]> GetCircleTestData()
+        {
+            yield return new object[] { 0 };
+            yield return new object[] { 1 };
+            yield return new object[] { 2 };
+            yield return new object[] { 3 };
+            yield return new object[] { 4 };
+            yield return new object[] { 5 };
+            yield return new object[] { 6 };
+            yield return new object[] { 7 };
+            yield return new object[] { 8 };
+            yield return new object[] { 9 };
+        }
 
         [Test]
         [Category("Area tests")]
-        public void CircleAreaCalculation()
+        [TestCaseSource(nameof(GetCircleTestData))]
+        public void CircleAreaCalculation(double radius)
         {
-            double expectedArea = Math.PI * 5 * 5; // Assuming radius is 5
-            double actualArea = Circle.CalculateArea(5);
+            double expectedArea = Math.PI * radius * radius; // Assuming radius is 5
+            double actualArea = Circle.CalculateArea(radius);
             Assert.That(actualArea, Is.EqualTo(expectedArea));
         }
 
         [Test]
         [Category("Perimeter tests")]
-        public void CirclePerimeterCalculation()
+        [TestCaseSource(nameof(GetCircleTestData))]
+        public void CirclePerimeterCalculation(double radius)
         {
-            double expectedPerimeter = 2 * Math.PI * 5; // Assuming radius is 5
-            double actualPerimeter = Circle.CalculatePerimeter(5);
+            double expectedPerimeter = 2 * Math.PI * radius; // Assuming radius is 5
+            double actualPerimeter = Circle.CalculatePerimeter(radius);
             Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
         }
 
@@ -56,20 +72,40 @@ namespace GeometryCalcTestsNUnit
     public class TriangleTests
     {
         [Test]
+        [TestCase(0, 1)]
+        [TestCase(1, 2)]
+        [TestCase(2, 3)]
+        [TestCase(3, 4)]
+        [TestCase(4, 5)]
+        [TestCase(5, 6)]
+        [TestCase(6, 7)]
+        [TestCase(7, 8)]
+        [TestCase(8, 9)]
+        [TestCase(9, 0)]
         [Category("Area tests")]
-        public void TriangleAreaCalculation()
+        public void TriangleAreaCalculation(double mybase, double myheight)
         {
-            double expectedArea = 10.0; // Assuming base length = 5 and height = 4
-            double actualArea = Triangle.CalculateArea(5, 4);
+            double expectedArea = 0.5 * mybase * myheight; // Assuming base length = 5 and height = 4
+            double actualArea = Triangle.CalculateArea(mybase, myheight);
             Assert.That(actualArea, Is.EqualTo(expectedArea));
         }
 
         [Test]
+        [TestCase(0, 1, 2)]
+        [TestCase(1, 2, 3)]
+        [TestCase(2, 3, 4)]
+        [TestCase(3, 4, 5)]
+        [TestCase(4, 5, 6)]
+        [TestCase(5, 6, 7)]
+        [TestCase(6, 7, 8)]
+        [TestCase(7, 8, 9)]
+        [TestCase(8, 9, 0)]
+        [TestCase(9, 0, 1)]
         [Category("Perimeter tests")]
-        public void TrianglePerimeterCalculation()
+        public void TrianglePerimeterCalculation(double a, double b, double c)
         {
-            double expectedPerimeter = 12.0; // Assuming side lengths are 4, 5, and 3
-            double actualPerimeter = Triangle.CalculatePerimeter(4, 5, 3);
+            double expectedPerimeter = a + b + c; // Assuming side lengths are 4, 5, and 3
+            double actualPerimeter = Triangle.CalculatePerimeter(a, b, c);
             Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
         }
 
