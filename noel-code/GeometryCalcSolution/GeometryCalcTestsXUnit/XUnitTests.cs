@@ -1,10 +1,17 @@
+using CsvHelper.Configuration;
+using CsvHelper;
 using GeometryCalcLibrary;
+using System.ComponentModel;
+using System.Globalization;
 
 namespace GeometryCalcTestsXUnit
 {
     [Trait("Category", "Circle tests")]
     public class CircleTests
     {
+        /*
+         * Type 1: data hard coded in method
+         */
         [Fact]
         [Trait("Category", "Area tests")]
         public void CircleAreaCalculation1()
@@ -14,6 +21,18 @@ namespace GeometryCalcTestsXUnit
             Assert.Equal(expectedArea, actualArea);
         }
 
+        [Fact]
+        [Trait("Category", "Perimeter tests")]
+        public void CirclePerimeterCalculation1()
+        {
+            double expectedPerimeter = 2 * Math.PI * 5; // Assuming radius is 5
+            double actualPerimeter = Circle.CalculatePerimeter(5);
+            Assert.Equal(expectedPerimeter, actualPerimeter);
+        }
+
+        /*
+         * Type 2: data in InlineData statements
+         */
         [Theory]
         [Trait("Category", "Area tests")]
         [InlineData(0)]
@@ -33,7 +52,29 @@ namespace GeometryCalcTestsXUnit
             Assert.Equal(expectedArea, actualArea);
         }
 
-        public static TheoryData<double> CircleTestData()
+        [Theory]
+        [Trait("Category", "Perimeter tests")]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        [InlineData(5)]
+        [InlineData(6)]
+        [InlineData(7)]
+        [InlineData(8)]
+        [InlineData(9)]
+        public void CirclePerimeterCalculation2(double radius)
+        {
+            double expectedPerimeter = 2 * Math.PI * radius;
+            double actualPerimeter = Circle.CalculatePerimeter(radius);
+            Assert.Equal(expectedPerimeter, actualPerimeter);
+        }
+
+        /*
+         * Type 3: data in TheoryData object
+         */
+        public static TheoryData<double> GetCircleTestData()
         {
             var data = new TheoryData<double>
             {
@@ -53,7 +94,7 @@ namespace GeometryCalcTestsXUnit
 
         [Theory]
         [Trait("Category", "Area tests")]
-        [MemberData(nameof(CircleTestData))]
+        [MemberData(nameof(GetCircleTestData))]
         public void CircleAreaCalculation3(double radius)
         {
             double expectedArea = Math.PI * radius * radius;
@@ -63,12 +104,53 @@ namespace GeometryCalcTestsXUnit
 
         [Theory]
         [Trait("Category", "Perimeter tests")]
-        [MemberData(nameof(CircleTestData))]
-        public void CirclePerimeterCalculation(double radius)
+        [MemberData(nameof(GetCircleTestData))]
+        public void CirclePerimeterCalculation3(double radius)
         {
             double expectedPerimeter = 2 * Math.PI * radius; // Assuming radius is 5
             double actualPerimeter = Circle.CalculatePerimeter(radius);
             Assert.Equal(expectedPerimeter, actualPerimeter);
+        }
+
+        /*
+         * Type 4: data in CSV file
+         */
+        public class CircleTestData
+        {
+            public double Radius { get; set; }
+            public double ExpectedArea { get; set; }
+            public double ExpectedPerimeter { get; set; }
+        }
+
+        public static IEnumerable<object[]> GetCircleTestDataFromCSV()
+        {
+            string csvFilePath = "CircleTestDataXUnit.csv";
+            using (var reader = new StreamReader(csvFilePath))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
+            {
+                foreach (var record in csv.GetRecords<CircleTestData>().ToList())
+                {
+                    yield return new object[] { record };
+                }
+            }
+        }
+
+        [Theory]
+        [Trait("Category", "Area tests")]
+        [MemberData(nameof(GetCircleTestDataFromCSV))]
+        public void CircleAreaCalculation4(CircleTestData testData)
+        {
+            double actual = Circle.CalculateArea(testData.Radius);
+            Assert.Equal(testData.ExpectedArea, actual, precision: 5);
+        }
+
+        [Theory]
+        [Trait("Category", "Perimeter tests")]
+        [MemberData(nameof(GetCircleTestDataFromCSV))]
+        public void CirclePerimeterCalculation4(CircleTestData testData)
+        {
+            double actual = Circle.CalculatePerimeter(testData.Radius);
+            Assert.Equal(testData.ExpectedPerimeter, actual, precision: 5);
         }
     }
 
@@ -155,9 +237,12 @@ namespace GeometryCalcTestsXUnit
     [Trait("Category", "Square tests")]
     public class SquareTests
     {
+        /*
+         * Type 1: data hard coded in method
+         */
         [Fact]
         [Trait("Category", "Area tests")]
-        public void SquareAreaCalculation()
+        public void SquareAreaCalculation1()
         {
             double expectedArea = 25; // Assuming side length is 5
             double actualArea = Square.CalculateArea(5);
@@ -166,11 +251,134 @@ namespace GeometryCalcTestsXUnit
 
         [Fact]
         [Trait("Category", "Perimeter tests")]
-        public void SquarePerimeterCalculation()
+        public void SquarePerimeterCalculation1()
         {
             double expectedPerimeter = 20; // Assuming side length is 5
             double actualPerimeter = Square.CalculatePerimeter(5);
             Assert.Equal(expectedPerimeter, actualPerimeter);
+        }
+
+        /*
+         * Type 2: data in InlineData statements
+         */
+        [Theory]
+        [Trait("Category", "Area tests")]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        [InlineData(5)]
+        [InlineData(6)]
+        [InlineData(7)]
+        [InlineData(8)]
+        [InlineData(9)]
+        public void SquareAreaCalculation2(double side)
+        {
+            double expectedArea = side * side;
+            double actualArea = Square.CalculateArea(side);
+            Assert.Equal(expectedArea, actualArea);
+        }
+
+        [Theory]
+        [Trait("Category", "Perimeter tests")]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        [InlineData(5)]
+        [InlineData(6)]
+        [InlineData(7)]
+        [InlineData(8)]
+        [InlineData(9)]
+        public void SquarePerimeterCalculation2(double side)
+        {
+            double expectedPerimeter = 4 * side;
+            double actualPerimeter = Square.CalculatePerimeter(side);
+            Assert.Equal(expectedPerimeter, actualPerimeter);
+        }
+
+        /*
+         * Type 3: data in TheoryData object
+         */
+        public static TheoryData<double> GetSquareTestData()
+        {
+            var data = new TheoryData<double>
+            {
+                { 0},
+                { 1},
+                { 2},
+                { 3},
+                { 4},
+                { 5},
+                { 6},
+                { 7},
+                { 8},
+                { 9}
+            };
+            return data;
+        }
+
+        [Theory]
+        [Trait("Category", "Area tests")]
+        [MemberData(nameof(GetSquareTestData))]
+        public void SquareAreaCalculation3(double side)
+        {
+            double expectedArea = side * side;
+            double actualArea = Square.CalculateArea(side);
+            Assert.Equal(expectedArea, actualArea);
+        }
+
+        [Theory]
+        [Trait("Category", "Perimeter tests")]
+        [MemberData(nameof(GetSquareTestData))]
+        public void SquarePerimeterCalculation3(double side)
+        {
+            double expectedPerimeter = 4 * side;
+            double actualPerimeter = Square.CalculatePerimeter(side);
+            Assert.Equal(expectedPerimeter, actualPerimeter);
+        }
+
+        /*
+         * Type 4: data in CSV file
+         */
+        public class SquareTestData
+        {
+            public double Side { get; set; }
+            public double ExpectedArea { get; set; }
+            public double ExpectedPerimeter { get; set; }
+        }
+
+        public static IEnumerable<object[]> GetSquareTestDataFromCSV()
+        {
+            string csvFilePath = "SquareTestDataXUnit.csv";
+            using (var reader = new StreamReader(csvFilePath))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
+            {
+                foreach (var record in csv.GetRecords<SquareTestData>().ToList())
+                {
+                    yield return new object[] { record };
+                }
+            }
+        }
+
+        [Theory]
+        [Trait("Category", "Area tests")]
+        [MemberData(nameof(GetSquareTestDataFromCSV))]
+        public void SquareAreaCalculation4(SquareTestData testData)
+        {
+            double actual = Square.CalculateArea(testData.Side);
+            Assert.Equal(testData.ExpectedArea, actual, precision: 5);
+        }
+
+        [Theory]
+        [Trait("Category", "Perimeter tests")]
+        [MemberData(nameof(GetSquareTestDataFromCSV))]
+        public void SquarePerimeterCalculation4(SquareTestData testData)
+        {
+            double actual = Square.CalculatePerimeter(testData.Side);
+            Assert.Equal(testData.ExpectedPerimeter, actual, precision: 5);
         }
     }
 
