@@ -5,6 +5,34 @@ namespace GeometryCalcTestsXUnit
     [Trait("Category", "Circle tests")]
     public class CircleTests
     {
+        [Fact]
+        [Trait("Category", "Area tests")]
+        public void CircleAreaCalculation1()
+        {
+            double expectedArea = Math.PI * 5 * 5; // Assuming radius is 5
+            double actualArea = Circle.CalculateArea(5);
+            Assert.Equal(expectedArea, actualArea);
+        }
+
+        [Theory]
+        [Trait("Category", "Area tests")]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        [InlineData(5)]
+        [InlineData(6)]
+        [InlineData(7)]
+        [InlineData(8)]
+        [InlineData(9)]
+        public void CircleAreaCalculation2(double radius)
+        {
+            double expectedArea = Math.PI * radius * radius; // Assuming radius is 5
+            double actualArea = Circle.CalculateArea(radius);
+            Assert.Equal(expectedArea, actualArea);
+        }
+
         public static TheoryData<double> CircleTestData()
         {
             var data = new TheoryData<double>
@@ -26,7 +54,7 @@ namespace GeometryCalcTestsXUnit
         [Theory]
         [Trait("Category", "Area tests")]
         [MemberData(nameof(CircleTestData))]
-        public void CircleAreaCalculation(double radius)
+        public void CircleAreaCalculation3(double radius)
         {
             double expectedArea = Math.PI * radius * radius; // Assuming radius is 5
             double actualArea = Circle.CalculateArea(radius);

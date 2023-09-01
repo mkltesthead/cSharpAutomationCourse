@@ -2,6 +2,7 @@
 using System;
 using GeometryCalcLibrary;
 using System.Security.Policy;
+using System.Collections.Generic;
 
 namespace GeometryCalcTestsMSTest
 {
@@ -21,6 +22,15 @@ namespace GeometryCalcTestsMSTest
             Console.WriteLine("Run before each circle test.");
         }
 
+        [TestMethod]
+        [TestCategory("Area tests")]
+        public void CircleAreaCalculation1()
+        {
+            double expectedArea = Math.PI * 5 * 5;
+            double actualArea = Circle.CalculateArea(5);
+            Assert.AreEqual(expectedArea, actualArea);
+        }
+
         [DataTestMethod]
         [DataRow(0)]
         [DataRow(1)]
@@ -33,7 +43,31 @@ namespace GeometryCalcTestsMSTest
         [DataRow(8)]
         [DataRow(9)]
         [TestCategory("Area tests")]
-        public void CircleAreaCalculation(double radius)
+        public void CircleAreaCalculation2(double radius)
+        {
+            double expectedArea = Math.PI * radius * radius;
+            double actualArea = Circle.CalculateArea(radius);
+            Assert.AreEqual(expectedArea, actualArea);
+        }
+
+        private static IEnumerable<object[]> GetCircleTestData()
+        {
+            yield return new object[] { 0 };
+            yield return new object[] { 1 };
+            yield return new object[] { 2 };
+            yield return new object[] { 3 };
+            yield return new object[] { 4 };
+            yield return new object[] { 5 };
+            yield return new object[] { 6 };
+            yield return new object[] { 7 };
+            yield return new object[] { 8 };
+            yield return new object[] { 9 };
+        }
+
+        [DataTestMethod]
+        [TestCategory("Area tests")]
+        [DynamicData(nameof(GetCircleTestData), DynamicDataSourceType.Method)]
+        public void CircleAreaCalculation3(double radius)
         {
             double expectedArea = Math.PI * radius * radius;
             double actualArea = Circle.CalculateArea(radius);
@@ -138,21 +172,37 @@ namespace GeometryCalcTestsMSTest
     [TestCategory("Square tests")]
     public class SquareTests
     {
-        [TestMethod]
-        [TestCategory("Area tests")]
-        public void SquareAreaCalculation()
+        private static IEnumerable<object[]> GetSquareTestData()
         {
-            double expectedArea = 25; // Assuming side length is 5
-            double actualArea = Square.CalculateArea(5);
+            yield return new object[] { 0 };
+            yield return new object[] { 1 };
+            yield return new object[] { 2 };
+            yield return new object[] { 3 };
+            yield return new object[] { 4 };
+            yield return new object[] { 5 };
+            yield return new object[] { 6 };
+            yield return new object[] { 7 };
+            yield return new object[] { 8 };
+            yield return new object[] { 9 };
+        }
+
+        [DataTestMethod]
+        [TestCategory("Area tests")]
+        [DynamicData(nameof(GetSquareTestData), DynamicDataSourceType.Method)]
+        public void SquareAreaCalculation(double side)
+        {
+            double expectedArea = side * side; // Assuming side length is 5
+            double actualArea = Square.CalculateArea(side);
             Assert.AreEqual(expectedArea, actualArea);
         }
 
-        [TestMethod]
+        [DataTestMethod]
         [TestCategory("Perimeter tests")]
-        public void SquarePerimeterCalculation()
+        [DynamicData(nameof(GetSquareTestData), DynamicDataSourceType.Method)]
+        public void SquarePerimeterCalculation(double side)
         {
-            double expectedPerimeter = 20; // Assuming side length is 5
-            double actualPerimeter = Square.CalculatePerimeter(5);
+            double expectedPerimeter = 4 * side; // Assuming side length is 5
+            double actualPerimeter = Square.CalculatePerimeter(side);
             Assert.AreEqual(expectedPerimeter, actualPerimeter);
         }
     }

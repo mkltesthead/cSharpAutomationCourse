@@ -20,6 +20,35 @@ namespace GeometryCalcTestsNUnit
         {
             Console.WriteLine("Run before each circle test.");
         }
+
+        [Test]
+        [Category("Area tests")]
+        public void CircleAreaCalculation1()
+        {
+            double expectedArea = Math.PI * 5 * 5; // Assuming radius is 5
+            double actualArea = Circle.CalculateArea(5);
+            Assert.That(actualArea, Is.EqualTo(expectedArea));
+        }
+
+        [Test]
+        [TestCase(0)]
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(3)]
+        [TestCase(4)]
+        [TestCase(5)]
+        [TestCase(6)]
+        [TestCase(7)]
+        [TestCase(8)]
+        [TestCase(9)]
+        [Category("Area tests")]
+        public void CircleAreaCalculation2(double radius)
+        {
+            double expectedArea = Math.PI * radius * radius;
+            double actualArea = Circle.CalculateArea(radius);
+            Assert.That(actualArea, Is.EqualTo(expectedArea));
+        }
+
         private static IEnumerable<object[]> GetCircleTestData()
         {
             yield return new object[] { 0 };
@@ -37,9 +66,9 @@ namespace GeometryCalcTestsNUnit
         [Test]
         [Category("Area tests")]
         [TestCaseSource(nameof(GetCircleTestData))]
-        public void CircleAreaCalculation(double radius)
+        public void CircleAreaCalculation3(double radius)
         {
-            double expectedArea = Math.PI * radius * radius; // Assuming radius is 5
+            double expectedArea = Math.PI * radius * radius;
             double actualArea = Circle.CalculateArea(radius);
             Assert.That(actualArea, Is.EqualTo(expectedArea));
         }
