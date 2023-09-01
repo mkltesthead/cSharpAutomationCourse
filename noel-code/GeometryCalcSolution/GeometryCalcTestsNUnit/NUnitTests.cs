@@ -78,7 +78,7 @@ namespace GeometryCalcTestsNUnit
         [TestCaseSource(nameof(GetCircleTestData))]
         public void CirclePerimeterCalculation(double radius)
         {
-            double expectedPerimeter = 2 * Math.PI * radius; // Assuming radius is 5
+            double expectedPerimeter = 2 * Math.PI * radius;
             double actualPerimeter = Circle.CalculatePerimeter(radius);
             Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
         }

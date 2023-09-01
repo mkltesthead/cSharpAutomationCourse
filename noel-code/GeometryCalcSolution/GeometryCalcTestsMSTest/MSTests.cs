@@ -1,8 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using GeometryCalcLibrary;
-using System.Security.Policy;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using CsvHelper;
+using CsvHelper.Configuration;
+using System.Linq;
 
 namespace GeometryCalcTestsMSTest
 {
@@ -72,6 +76,47 @@ namespace GeometryCalcTestsMSTest
             double expectedArea = Math.PI * radius * radius;
             double actualArea = Circle.CalculateArea(radius);
             Assert.AreEqual(expectedArea, actualArea);
+        }
+
+        public class CircleTestData
+        {
+            public double Radius { get; set; }
+            public double Expected { get; set; }
+        }
+
+        private static List<CircleTestData> LoadTestDataFromCSV(string csvFilePath)
+        {
+            using (var reader = new StreamReader(csvFilePath))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
+            {
+                return csv.GetRecords<CircleTestData>().ToList();
+            }
+        }
+
+        private static IEnumerable<object[]> GetCircleTestDataFromCSV()
+        {
+            string csvFilePath = "CircleTestData.csv";
+
+            using (var reader = new StreamReader(csvFilePath))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
+            {
+                var records = csv.GetRecords<CircleTestData>().ToList();
+                foreach (var record in records)
+                {
+                    yield return new object[] { record.Radius, record.Expected };
+                }
+            }
+        }
+
+        [DataTestMethod]
+        [TestCategory("Area Tests")]
+        [DynamicData(nameof(GetCircleTestDataFromCSV), typeof(CircleTests), DynamicDataSourceType.Method)]
+        public void CircleAreaCalculation4(double radius, double expected)
+        {
+            double actual = Circle.CalculateArea(radius);
+            double tolerance = 0.0001; // Adjust the tolerance value as needed
+
+            Assert.AreEqual(expected, actual, tolerance);
         }
 
         [DataTestMethod]

@@ -28,7 +28,7 @@ namespace GeometryCalcTestsXUnit
         [InlineData(9)]
         public void CircleAreaCalculation2(double radius)
         {
-            double expectedArea = Math.PI * radius * radius; // Assuming radius is 5
+            double expectedArea = Math.PI * radius * radius;
             double actualArea = Circle.CalculateArea(radius);
             Assert.Equal(expectedArea, actualArea);
         }
@@ -56,7 +56,7 @@ namespace GeometryCalcTestsXUnit
         [MemberData(nameof(CircleTestData))]
         public void CircleAreaCalculation3(double radius)
         {
-            double expectedArea = Math.PI * radius * radius; // Assuming radius is 5
+            double expectedArea = Math.PI * radius * radius;
             double actualArea = Circle.CalculateArea(radius);
             Assert.Equal(expectedArea, actualArea);
         }
