@@ -2,12 +2,11 @@ using GeometryCalculatorLibrary;
 
 namespace GeometryCalculatorTestsMSTest
 {
-
-    // VERSION THREE DATA DRIVEN TEST - External Test Data (CSV File)
     [TestClass]
     [TestCategory("Circle Tests")]
     public class CircleTests
     {
+        // VERSION THREE DATA DRIVEN TEST - External Test Data (CSV File)
         public class CircleTestData
         {
             public double Radius { get; set; }
@@ -50,70 +49,64 @@ namespace GeometryCalculatorTestsMSTest
             Assert.AreEqual(expected, actual, tolerance);
         }
 
-        /* 
-        [TestClass]
-        [TestCategory("Circle Tests")]
-        public class CircleTests
+
+        /*  
+        // VERSION TWO DATA DRIVEN TEST - Shared Test Data
+        private static IEnumerable<object[]> GetCircleAreaTestData()
         {
-            // VERSION TWO DATA DRIVEN TEST - Shared Test Data
-            private static IEnumerable<object[]> GetCircleAreaTestData()
-            {
-                yield return new object[] { 5, Math.PI * 5 * 5 };
-                yield return new object[] { 6, Math.PI * 6 * 6 };
-                yield return new object[] { 7, Math.PI * 7 * 7 };
-                yield return new object[] { 8, Math.PI * 8 * 8 };
-                yield return new object[] { 9, Math.PI * 9 * 9 };
-                yield return new object[] { 10, Math.PI * 10 * 10 };
-            }
+            yield return new object[] { 5, Math.PI * 5 * 5 };
+            yield return new object[] { 6, Math.PI * 6 * 6 };
+            yield return new object[] { 7, Math.PI * 7 * 7 };
+            yield return new object[] { 8, Math.PI * 8 * 8 };
+            yield return new object[] { 9, Math.PI * 9 * 9 };
+            yield return new object[] { 10, Math.PI * 10 * 10 };
+        }
 
-            private static IEnumerable<object[]> GetCirclePerimeterTestData()
-            {
-                yield return new object[] { 5, 2 * Math.PI * 5 };
-                yield return new object[] { 6, 2 * Math.PI * 6 };
-                yield return new object[] { 7, 2 * Math.PI * 7 };
-                yield return new object[] { 8, 2 * Math.PI * 8 };
-                yield return new object[] { 9, 2 * Math.PI * 9 };
-                yield return new object[] { 10, 2 * Math.PI * 10 };
-            }
+        private static IEnumerable<object[]> GetCirclePerimeterTestData()
+        {
+            yield return new object[] { 5, 2 * Math.PI * 5 };
+            yield return new object[] { 6, 2 * Math.PI * 6 };
+            yield return new object[] { 7, 2 * Math.PI * 7 };
+            yield return new object[] { 8, 2 * Math.PI * 8 };
+            yield return new object[] { 9, 2 * Math.PI * 9 };
+            yield return new object[] { 10, 2 * Math.PI * 10 };
+        }
 
-            [DataTestMethod]
-            [TestCategory("Area Tests")]
-            [DynamicData(nameof(GetCircleAreaTestData), DynamicDataSourceType.Method)]
-            public void CircleAreaCalculation(double radius, double expected)
-            {
-                double actual = Circle.CalculateArea(radius);
-                Assert.AreEqual(expected, actual);
-            }
+        [DataTestMethod]
+        [TestCategory("Area Tests")]
+        [DynamicData(nameof(GetCircleAreaTestData), DynamicDataSourceType.Method)]
+        public void CircleAreaCalculation(double radius, double expected)
+        {
+            double actual = Circle.CalculateArea(radius);
+            Assert.AreEqual(expected, actual);
+        }
 
-            [DataTestMethod]
-            [TestCategory("Perimeter Tests")]
-            [DynamicData(nameof(GetCirclePerimeterTestData), DynamicDataSourceType.Method)]
-            public void CirclePerimeterCalculation(double radius, double expected)
-            {
-                double actual = Circle.CalculatePerimeter(radius);
-                Assert.AreEqual(expected, actual);
-            }
+        [DataTestMethod]
+        [TestCategory("Perimeter Tests")]
+        [DynamicData(nameof(GetCirclePerimeterTestData), DynamicDataSourceType.Method)]
+        public void CirclePerimeterCalculation(double radius, double expected)
+        {
+            double actual = Circle.CalculatePerimeter(radius);
+            Assert.AreEqual(expected, actual);
         }
         */
 
-
         // VERSION ONE DATA TEST - at the Test Method Level
         /*
-            [DataTestMethod]
-            [TestCategory("Perimeter Tests")]
-            [DataRow(5, 2 * Math.PI * 5)]  // Radius, Expected Perimeter
-            [DataRow(6, 2 * Math.PI * 6)]
-            [DataRow(7, 2 * Math.PI * 7)]
-            [DataRow(8, 2 * Math.PI * 8)]
-            [DataRow(9, 2 * Math.PI * 9)]
-            [DataRow(10, 2 * Math.PI * 10)]
-            public void CirclePerimeterCalculation(double radius, double expected)
-            {
-                double actual = Circle.CalculatePerimeter(radius);
-                Assert.AreEqual(expected, actual);
-            }
+        [DataTestMethod]
+        [TestCategory("Perimeter Tests")]
+        [DataRow(5, 2 * Math.PI * 5)]  // Radius, Expected Perimeter
+        [DataRow(6, 2 * Math.PI * 6)]
+        [DataRow(7, 2 * Math.PI * 7)]
+        [DataRow(8, 2 * Math.PI * 8)]
+        [DataRow(9, 2 * Math.PI * 9)]
+        [DataRow(10, 2 * Math.PI * 10)]
+        public void CirclePerimeterCalculation(double radius, double expected)
+        {
+            double actual = Circle.CalculatePerimeter(radius);
+            Assert.AreEqual(expected, actual);
+        }
         */
-
         /* //ORIGINAL CODE FOR SINGLE TESTS
 
         [TestClass]

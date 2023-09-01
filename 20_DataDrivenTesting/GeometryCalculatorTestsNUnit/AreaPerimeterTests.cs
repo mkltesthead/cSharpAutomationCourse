@@ -1,53 +1,88 @@
+using CsvHelper.Configuration;
 using GeometryCalculatorLibrary;
 
 namespace GeometryCalculatorTestsNUnit
 {
-
-
     [TestFixture]
     [Category("Circle Tests")]
     public class CircleTests
     {
-        private static IEnumerable<object[]> GetCircleAreaTestData()
+        public class CircleTestData
         {
-            yield return new object[] { 5, Math.PI * 5 * 5 };
-            yield return new object[] { 6, Math.PI * 6 * 6 };
-            yield return new object[] { 7, Math.PI * 7 * 7 };
-            yield return new object[] { 8, Math.PI * 8 * 8 };
-            yield return new object[] { 9, Math.PI * 9 * 9 };
-            yield return new object[] { 10, Math.PI * 10 * 10 };
+            public double Radius { get; set; }
+            public double Expected { get; set; }
         }
 
-        private static IEnumerable<object[]> GetCirclePerimeterTestData()
+        private static List<CircleTestData> LoadTestDataFromCSV(string csvFilePath)
         {
-            yield return new object[] { 5, 2 * Math.PI * 5 };
-            yield return new object[] { 6, 2 * Math.PI * 6 };
-            yield return new object[] { 7, 2 * Math.PI * 7 };
-            yield return new object[] { 8, 2 * Math.PI * 8 };
-            yield return new object[] { 9, 2 * Math.PI * 9 };
-            yield return new object[] { 10, 2 * Math.PI * 10 };
+            using (var reader = new StreamReader(csvFilePath))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
+            {
+                return csv.GetRecords<CircleTestData>().ToList();
+            }
         }
 
-        [Test, Category("Area Tests")]
-        [TestCaseSource(nameof(GetCircleAreaTestData))]
-        public void CircleAreaCalculation(double radius, double expected)
+        private static IEnumerable<CircleTestData> GetCircleTestDataFromCSV()
         {
-            double actual = Circle.CalculateArea(radius);
-            Assert.That(actual, Is.EqualTo(expected));
+            string csvFilePath = "CircleTestData.csv";
+
+            return LoadTestDataFromCSV(csvFilePath);
         }
 
-        [Test, Category("Perimeter Tests")]
-        [TestCaseSource(nameof(GetCirclePerimeterTestData))]
-        public void CirclePerimeterCalculation(double radius, double expected)
+        [Test]
+        [Category("Area Tests")]
+        [TestCaseSource(nameof(GetCircleTestDataFromCSV))]
+        public void CircleAreaCalculation(CircleTestData testData)
         {
-            double actual = Circle.CalculatePerimeter(radius);
-            Assert.That(actual, Is.EqualTo(expected));
+            double actual = Circle.CalculateArea(testData.Radius);
+            double tolerance = 0.0001; // Adjust the tolerance value as needed
+
+            Assert.That(actual, Is.EqualTo(testData.Expected).Within(tolerance));
         }
+
+    }
+    /*
+    // VERSION 2 - Method Data Driven Test Example
+    private static IEnumerable<object[]> GetCircleAreaTestData()
+    {
+        yield return new object[] { 5, Math.PI * 5 * 5 };
+        yield return new object[] { 6, Math.PI * 6 * 6 };
+        yield return new object[] { 7, Math.PI * 7 * 7 };
+        yield return new object[] { 8, Math.PI * 8 * 8 };
+        yield return new object[] { 9, Math.PI * 9 * 9 };
+        yield return new object[] { 10, Math.PI * 10 * 10 };
     }
 
+    private static IEnumerable<object[]> GetCirclePerimeterTestData()
+    {
+        yield return new object[] { 5, 2 * Math.PI * 5 };
+        yield return new object[] { 6, 2 * Math.PI * 6 };
+        yield return new object[] { 7, 2 * Math.PI * 7 };
+        yield return new object[] { 8, 2 * Math.PI * 8 };
+        yield return new object[] { 9, 2 * Math.PI * 9 };
+        yield return new object[] { 10, 2 * Math.PI * 10 };
+    }
 
+    [Test, Category("Area Tests")]
+    [TestCaseSource(nameof(GetCircleAreaTestData))]
+    public void CircleAreaCalculation(double radius, double expected)
+    {
+        double actual = Circle.CalculateArea(radius);
+        Assert.That(actual, Is.EqualTo(expected));
+    }
 
-    /* // VERSION 1 DDT - TEst Case Level
+    [Test, Category("Perimeter Tests")]
+    [TestCaseSource(nameof(GetCirclePerimeterTestData))]
+    public void CirclePerimeterCalculation(double radius, double expected)
+    {
+        double actual = Circle.CalculatePerimeter(radius);
+        Assert.That(actual, Is.EqualTo(expected));
+    }
+}
+*/
+
+    /*
+    // VERSION 1 DDT - TEst Case Level
     [TestFixture]
     [Category("Circle Tests")]
     public class CircleTests
@@ -66,7 +101,6 @@ namespace GeometryCalculatorTestsNUnit
         }
     }
     */
-
     /*  // ORIGINAL VERSION - No data Drivet Techniques
     public class CircleTests
     {
