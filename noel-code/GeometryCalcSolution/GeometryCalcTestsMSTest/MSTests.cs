@@ -150,7 +150,8 @@ namespace GeometryCalcTestsMSTest
 
         [DataTestMethod]
         [TestCategory("Area tests")]
-        [DynamicData(nameof(GetCircleTestDataFromCSV), typeof(CircleTests), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(GetCircleTestDataFromCSV), DynamicDataSourceType.Method)]
+        //[DynamicData(nameof(GetCircleTestDataFromCSV), typeof(CircleTests), DynamicDataSourceType.Method)]
         public void CircleAreaCalculation4(double radius, double expectedArea, double expectedPerimeter)
         {
             double actual = Circle.CalculateArea(radius);
@@ -160,7 +161,8 @@ namespace GeometryCalcTestsMSTest
 
         [DataTestMethod]
         [TestCategory("Perimeter tests")]
-        [DynamicData(nameof(GetCircleTestDataFromCSV), typeof(CircleTests), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(GetCircleTestDataFromCSV), DynamicDataSourceType.Method)]
+        //[DynamicData(nameof(GetCircleTestDataFromCSV), typeof(CircleTests), DynamicDataSourceType.Method)]
         public void CirclePerimeterCalculation4(double radius, double expectedArea, double expectedPerimeter)
         {
             double actual = Circle.CalculatePerimeter(radius);
@@ -370,7 +372,8 @@ namespace GeometryCalcTestsMSTest
 
         [DataTestMethod]
         [TestCategory("Area tests")]
-        [DynamicData(nameof(GetSquareTestDataFromCSV), typeof(SquareTests), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(GetSquareTestDataFromCSV), DynamicDataSourceType.Method)]
+        //[DynamicData(nameof(GetSquareTestDataFromCSV), typeof(SquareTests), DynamicDataSourceType.Method)]
         public void SquareAreaCalculation4(double side, double expectedArea, double expectedPerimeter)
         {
             double actual = Square.CalculateArea(side);
@@ -380,7 +383,8 @@ namespace GeometryCalcTestsMSTest
 
         [DataTestMethod]
         [TestCategory("Perimeter tests")]
-        [DynamicData(nameof(GetSquareTestDataFromCSV), typeof(SquareTests), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(GetSquareTestDataFromCSV), DynamicDataSourceType.Method)]
+        //[DynamicData(nameof(GetSquareTestDataFromCSV), typeof(SquareTests), DynamicDataSourceType.Method)]
         public void SquarePerimeterCalculation4(double side, double expectedArea, double expectedPerimeter)
         {
             double actual = Square.CalculatePerimeter(side);
