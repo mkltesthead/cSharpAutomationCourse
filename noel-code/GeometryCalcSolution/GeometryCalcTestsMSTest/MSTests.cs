@@ -159,7 +159,7 @@ namespace GeometryCalcTestsMSTest
         }
 
         [DataTestMethod]
-        [TestCategory("Area tests")]
+        [TestCategory("Perimeter tests")]
         [DynamicData(nameof(GetCircleTestDataFromCSV), typeof(CircleTests), DynamicDataSourceType.Method)]
         public void CirclePerimeterCalculation4(double radius, double expectedArea, double expectedPerimeter)
         {
