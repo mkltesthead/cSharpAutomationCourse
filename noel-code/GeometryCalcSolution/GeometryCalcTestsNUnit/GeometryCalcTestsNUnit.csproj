@@ -17,4 +17,13 @@
     <ProjectReference Include="..\GeometryCalcLibrary\GeometryCalcLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="CircleTestDataNUnit.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SquareTestDataNUnit.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
