@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorApp", "GeometryCalculatorApp\GeometryCalculatorApp.csproj", "{5453019F-AAAF-4587-AE29-A83500D6E2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorLibrary", "GeometryCalculatorLibrary\GeometryCalculatorLibrary.csproj", "{B7A637CB-03E3-49E9-9D2F-C38600F5E3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorTestsMSTest", "GeometryCalculatorTestsMSTest\GeometryCalculatorTestsMSTest.csproj", "{5FBCE10B-A0A6-4B7A-9068-D49AF341C842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorTestsNUnit", "GeometryCalculatorTestsNUnit\GeometryCalculatorTestsNUnit.csproj", "{34C95917-4733-4C03-A42F-56F12FBA2085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorTestsXUnit", "GeometryCalculatorTestsXUnit\GeometryCalculatorTestsXUnit.csproj", "{35CB5804-ACF5-49AA-8C26-1C412F9F1DF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5453019F-AAAF-4587-AE29-A83500D6E2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5453019F-AAAF-4587-AE29-A83500D6E2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5453019F-AAAF-4587-AE29-A83500D6E2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5453019F-AAAF-4587-AE29-A83500D6E2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A637CB-03E3-49E9-9D2F-C38600F5E3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A637CB-03E3-49E9-9D2F-C38600F5E3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A637CB-03E3-49E9-9D2F-C38600F5E3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A637CB-03E3-49E9-9D2F-C38600F5E3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBCE10B-A0A6-4B7A-9068-D49AF341C842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBCE10B-A0A6-4B7A-9068-D49AF341C842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBCE10B-A0A6-4B7A-9068-D49AF341C842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBCE10B-A0A6-4B7A-9068-D49AF341C842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C95917-4733-4C03-A42F-56F12FBA2085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C95917-4733-4C03-A42F-56F12FBA2085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C95917-4733-4C03-A42F-56F12FBA2085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C95917-4733-4C03-A42F-56F12FBA2085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CB5804-ACF5-49AA-8C26-1C412F9F1DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CB5804-ACF5-49AA-8C26-1C412F9F1DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CB5804-ACF5-49AA-8C26-1C412F9F1DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CB5804-ACF5-49AA-8C26-1C412F9F1DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B9881EF-0900-4F48-869A-45FFB388BE9D}
+	EndGlobalSection
+EndGlobal
