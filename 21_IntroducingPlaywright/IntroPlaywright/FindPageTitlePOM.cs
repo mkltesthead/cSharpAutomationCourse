@@ -15,13 +15,14 @@
             private HomePage _homePage;
 
             [TestInitialize]
-            public async void TestInitialize()
+            public async Task TestInitialize()
             {
                 _playwright = await Playwright.CreateAsync();
                 _browser = await _playwright.Chromium.LaunchAsync();
                 _page = await _browser.NewPageAsync();
                 _homePage = new HomePage(_page);
             }
+
 
             [TestCleanup]
             public async Task TestCleanup()
