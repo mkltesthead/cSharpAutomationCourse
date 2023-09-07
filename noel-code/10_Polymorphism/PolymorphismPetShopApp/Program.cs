@@ -50,7 +50,7 @@ class PolymorphismPetShopApp
 
         Console.WriteLine("**********");
 
-        Animal sven = new Dog(); // Upcasting
+        Animal sven = new Animal(); // Upcasting
         sven.MakeSound();
 
         Console.WriteLine("**********");
@@ -80,7 +80,7 @@ class PolymorphismPetShopApp
     {
         if (animal is Dog)
         {
-            Console.WriteLine("You are feeding the dog dog food. Great work!");
+            Console.WriteLine("You have fed the dog dog food. Great work!");
         }
         else if (animal is Cat)
         {
@@ -88,7 +88,7 @@ class PolymorphismPetShopApp
         }
         else
         {
-            Console.WriteLine("You are feeding the animal animal food. Great work!");
+            Console.WriteLine("You are feeding the animal food. Great work!");
         }
     }
 }

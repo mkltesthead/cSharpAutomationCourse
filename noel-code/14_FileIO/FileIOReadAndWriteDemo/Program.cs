@@ -8,11 +8,11 @@ namespace FileIOReadAndWriteDemo
         static void Main()
         {
             // Create a working directory on our hard drive to read from and write to.
-            string directoryPath = @"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\ReadAndWriteFromHere";
+            string directoryPath = @"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\ReadAndWriteFromHere";
             Directory.CreateDirectory(directoryPath);
 
             // Call the writeFile method to create and write to a file.
-            WriteFile(directoryPath);
+            WriteFile();
 
             // Display a message indicating that the file has been written successfully.
             Console.WriteLine("File has been written successfully!");
@@ -22,12 +22,12 @@ namespace FileIOReadAndWriteDemo
             Console.ReadKey();
         }
 
-        public static void WriteFile(string directoryPath)
+        public static void WriteFile()
         {
             try
             {
                 // Combine the directory path and file name for the file.
-                string filePath = Path.Combine(directoryPath, "ReadAndWriteFile.txt");
+                string filePath = Path.Combine(@"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\ReadAndWriteFromHere", "ReadAndWriteFile.txt");
 
                 // Create a new instance of StreamWriter named writer.
                 // The StreamWriter class is used to write characters to a file.
@@ -37,11 +37,11 @@ namespace FileIOReadAndWriteDemo
                     // Use the Write method to write data to the file.
                     // Each call to Write writes the data to the file without a new line.
                     // Experiment with different formatting options such as New Lines or Spaces
-                    writer.WriteLine("Michael Larsen");
-                    writer.WriteLine("Victor Jones");
-                    writer.WriteLine("Brian Horban");
-                    writer.WriteLine("Lloyd Ellis");
-                    writer.WriteLine("Edward Scott");
+                    writer.Write("Michael Larsen \n");
+                    writer.Write("Victor Jones \n");
+                    writer.Write("Brian Horban \n");
+                    writer.Write("Lloyd Ellis \n");
+                    writer.Write("Edward Scott \n");
                 }
 
                 // Note: The StreamWriter automatically flushes the buffer and writes the data to the file.

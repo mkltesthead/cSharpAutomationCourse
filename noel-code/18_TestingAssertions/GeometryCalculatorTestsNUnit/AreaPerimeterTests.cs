@@ -40,6 +40,42 @@ namespace GeometryCalculatorTestsNUnit
             double actualPerimeter = Triangle.CalculatePerimeter(4, 5, 3);
             Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
         }
+
+        [Test]
+        public void TestCalculateAreaHeron()
+        {
+            double expectedArea = 6.0; // Assuming side lengths are 3, 4, and 5
+            double actualArea = Triangle.CalculateAreaHeron(3, 4, 5);
+            Assert.That(actualArea, Is.EqualTo(expectedArea));
+        }
+
+        [Test]
+        public void TestIsEquilateral()
+        {
+            Assert.IsTrue(Triangle.IsEquilateral(5, 5, 5));
+            Assert.IsFalse(Triangle.IsEquilateral(3, 4, 5));
+        }
+
+        [Test]
+        public void TestIsIsosceles()
+        {
+            Assert.IsTrue(Triangle.IsIsosceles(3, 3, 5));
+            Assert.IsFalse(Triangle.IsIsosceles(3, 4, 5));
+        }
+
+        [Test]
+        public void TestIsScalene()
+        {
+            Assert.IsTrue(Triangle.IsScalene(3, 4, 5));
+            Assert.IsFalse(Triangle.IsScalene(3, 3, 3));
+        }
+
+        [Test]
+        public void TestIsRightTriangle()
+        {
+            Assert.IsTrue(Triangle.IsRightTriangle(3, 4, 5));
+            Assert.IsFalse(Triangle.IsRightTriangle(3, 4, 6));
+        }
     }
 
     [TestFixture]
@@ -119,6 +155,92 @@ namespace GeometryCalculatorTestsNUnit
             double expectedPerimeter = 6 * 5; // Assuming side length is 5
             double actualPerimeter = Hexagon.CalculatePerimeter(5);
             Assert.That(actualPerimeter, Is.EqualTo(expectedPerimeter));
+        }
+    }
+
+    [TestFixture]
+    public class PolygonTests
+    {
+        [Test]
+        public void TestIsConvex_ConvexPolygon()
+        {
+            List<double> angles = new List<double> { 50, 90, 120 };
+            Assert.IsFalse(Polygon.IsConvex(angles));
+        }
+
+        [Test]
+        public void TestIsConvex_InvalidPolygon()
+        {
+            List<double> angles = new List<double> { 90 };
+            Assert.Throws<ArgumentException>(() => Polygon.IsConvex(angles));
+        }
+    }
+
+    [TestFixture]
+    public class SolidGeometryTests
+    {
+        [Test]
+        public void TestCalculateCubeVolume()
+        {
+            double expectedVolume = 125; // Side length = 5
+            double actualVolume = SolidGeometry.CalculateCubeVolume(5);
+            Assert.That(actualVolume, Is.EqualTo(expectedVolume));
+        }
+
+        [Test]
+        public void TestCalculateCubeSurfaceArea()
+        {
+            double expectedSurfaceArea = 150; // Side length = 5
+            double actualSurfaceArea = SolidGeometry.CalculateCubeSurfaceArea(5);
+            Assert.That(actualSurfaceArea, Is.EqualTo(expectedSurfaceArea));
+        }
+
+        [Test]
+        public void TestCalculateSphereVolume()
+        {
+            double expectedVolume = 113.09733552923254; // Radius = 3
+            double actualVolume = SolidGeometry.CalculateSphereVolume(3);
+            Assert.That(actualVolume, Is.EqualTo(expectedVolume).Within(0.0001)); // Adding a delta for floating-point precision
+        }
+
+        [Test]
+        public void TestCalculateSphereSurfaceArea()
+        {
+            double expectedSurfaceArea = 113.097335529232; // Radius = 3
+            double actualSurfaceArea = SolidGeometry.CalculateSphereSurfaceArea(3);
+            Assert.That(actualSurfaceArea, Is.EqualTo(expectedSurfaceArea).Within(0.0001)); // Adding a delta for floating-point precision
+        }
+
+        [Test]
+        public void TestCalculateCylinderVolume()
+        {
+            double expectedVolume = 50.26548245743669; // Radius = 2, Height = 4
+            double actualVolume = SolidGeometry.CalculateCylinderVolume(2, 4);
+            Assert.That(actualVolume, Is.EqualTo(expectedVolume).Within(0.0001)); // Adding a delta for floating-point precision
+        }
+
+        [Test]
+        public void TestCalculateCylinderSurfaceArea()
+        {
+            double expectedSurfaceArea = 75.39822368615503; // Radius = 2, Height = 4
+            double actualSurfaceArea = SolidGeometry.CalculateCylinderSurfaceArea(2, 4);
+            Assert.That(actualSurfaceArea, Is.EqualTo(expectedSurfaceArea).Within(0.0001)); // Adding a delta for floating-point precision
+        }
+
+        [Test]
+        public void TestCalculateConeVolume()
+        {
+            double expectedVolume = 12.566370614359172; // Radius = 2, Height = 3
+            double actualVolume = SolidGeometry.CalculateConeVolume(2, 3);
+            Assert.That(actualVolume, Is.EqualTo(expectedVolume).Within(0.0001)); // Adding a delta for floating-point precision
+        }
+
+        [Test]
+        public void TestCalculateConeSurfaceArea()
+        {
+            double expectedSurfaceArea = 35.22071741263713; // Radius = 2, Height = 3
+            double actualSurfaceArea = SolidGeometry.CalculateConeSurfaceArea(2, 3);
+            Assert.That(actualSurfaceArea, Is.EqualTo(expectedSurfaceArea).Within(0.0001)); // Adding a delta for floating-point precision
         }
     }
 }

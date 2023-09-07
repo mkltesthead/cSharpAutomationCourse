@@ -1,3 +1,4 @@
+using CsvHelper.Configuration;
 using GeometryCalculatorLibrary;
 
 namespace GeometryCalculatorTestsXUnit
@@ -5,52 +6,90 @@ namespace GeometryCalculatorTestsXUnit
     [Trait("Category", "Circle Tests")]
     public class CircleTests
     {
-        public static TheoryData<double, double> CircleAreaTestData()
+        public class CircleTestData
         {
-            var data = new TheoryData<double, double>
-            {
-                { 5, Math.PI * 5 * 5 },
-                { 6, Math.PI * 6 * 6 },
-                { 7, Math.PI * 7 * 7 },
-                { 8, Math.PI * 8 * 8 },
-                { 9, Math.PI * 9 * 9 },
-                { 10, Math.PI * 10 * 10 }
-            };
-            return data;
+            public double Radius { get; set; }
+            public double Expected { get; set; }
         }
 
-        public static TheoryData<double, double> CirclePerimeterTestData()
+        private static List<CircleTestData> LoadTestDataFromCSV(string csvFilePath)
         {
-            var data = new TheoryData<double, double>
+            using (var reader = new StreamReader(csvFilePath))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
             {
-                { 5, 2 * Math.PI * 5 },
-                { 6, 2 * Math.PI * 6 },
-                { 7, 2 * Math.PI * 7 },
-                { 8, 2 * Math.PI * 8 },
-                { 9, 2 * Math.PI * 9 },
-                { 10, 2 * Math.PI * 10 }
-            };
-            return data;
+                return csv.GetRecords<CircleTestData>().ToList();
+            }
+        }
+
+        public static IEnumerable<object[]> GetCircleTestDataFromCSV()
+        {
+            string csvFilePath = "CircleTestData.csv";
+            var testData = LoadTestDataFromCSV(csvFilePath);
+
+            foreach (var data in testData)
+            {
+                yield return new object[] { data };
+            }
         }
 
         [Theory]
         [Trait("Category", "Area Tests")]
-        [MemberData(nameof(CircleAreaTestData))]
-        public void CircleAreaCalculation(double radius, double expected)
+        [MemberData(nameof(GetCircleTestDataFromCSV))]
+        public void CircleAreaCalculation(CircleTestData testData)
         {
-            double actual = Circle.CalculateArea(radius);
-            Assert.Equal(expected, actual, 4); // Adjust the precision (number of decimal places) as needed
-        }
-
-        [Theory]
-        [Trait("Category", "Perimeter Tests")]
-        [MemberData(nameof(CirclePerimeterTestData))]
-        public void CirclePerimeterCalculation(double radius, double expected)
-        {
-            double actual = Circle.CalculatePerimeter(radius);
-            Assert.Equal(expected, actual, 4); // Adjust the precision (number of decimal places) as needed
+            double actual = Circle.CalculateArea(testData.Radius);
+            Assert.Equal(testData.Expected, actual, precision: 5); // Using precision instead of tolerance
         }
     }
+
+    /*
+    //VERSION 2 - MEthod Level Data Driven Test Values
+     public static TheoryData<double, double> CircleAreaTestData()
+     {
+         var data = new TheoryData<double, double>
+         {
+             { 5, Math.PI * 5 * 5 },
+             { 6, Math.PI * 6 * 6 },
+             { 7, Math.PI * 7 * 7 },
+             { 8, Math.PI * 8 * 8 },
+             { 9, Math.PI * 9 * 9 },
+             { 10, Math.PI * 10 * 10 }
+         };
+         return data;
+     }
+
+     public static TheoryData<double, double> CirclePerimeterTestData()
+     {
+         var data = new TheoryData<double, double>
+         {
+             { 5, 2 * Math.PI * 5 },
+             { 6, 2 * Math.PI * 6 },
+             { 7, 2 * Math.PI * 7 },
+             { 8, 2 * Math.PI * 8 },
+             { 9, 2 * Math.PI * 9 },
+             { 10, 2 * Math.PI * 10 }
+         };
+         return data;
+     }
+
+     [Theory]
+     [Trait("Category", "Area Tests")]
+     [MemberData(nameof(CircleAreaTestData))]
+     public void CircleAreaCalculation(double radius, double expected)
+     {
+         double actual = Circle.CalculateArea(radius);
+         Assert.Equal(expected, actual, 4); // Adjust the precision (number of decimal places) as needed
+     }
+
+     [Theory]
+     [Trait("Category", "Perimeter Tests")]
+     [MemberData(nameof(CirclePerimeterTestData))]
+     public void CirclePerimeterCalculation(double radius, double expected)
+     {
+         double actual = Circle.CalculatePerimeter(radius);
+         Assert.Equal(expected, actual, 4); // Adjust the precision (number of decimal places) as needed
+     }
+    */
 
     /* VERSION 1 DDT - Test Case Level w/ InLine Data
     [Trait("Category", "Circle Tests")]
