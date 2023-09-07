@@ -1,15 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace InterfaceBookDisplayDemo
+public interface IProduct
 {
-    internal class Program
+    void DisplayInfo();
+}
+
+public interface IKindleItem
+{
+    void Read();
+}
+
+public class Book : IProduct, IKindleItem
+{
+    public void DisplayInfo()
     {
-        static void Main(string[] args)
-        {
-        }
+        Console.WriteLine("Book information displayed.");
+    }
+
+    public void Read()
+    {
+        Console.WriteLine("Reading book...");
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        Book book = new Book();
+        book.DisplayInfo();
+        book.Read();
+
+        Console.WriteLine("Press any key to continue");
+        Console.ReadKey();
+
     }
 }

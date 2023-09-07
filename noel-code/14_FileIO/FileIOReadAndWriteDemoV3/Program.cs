@@ -8,7 +8,7 @@ namespace FileIOReadAndWriteDemoV3
         static void Main(string[] args)
         {
             // Create a working directory on our hard drive to read from and write to.
-            string directoryPath = @"C:\dev\SDET\cSharpAutomationCourse\noel-code\14_FileIO\FileIOReadAndWriteDemoV3";
+            string directoryPath = @"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV3";
             Directory.CreateDirectory(directoryPath);
 
             // Call the WriteFile method to create and write to a file.
@@ -31,11 +31,11 @@ namespace FileIOReadAndWriteDemoV3
             Console.ReadKey();
         }
 
-        public static void WriteFile(string directoryPath)
+        public static void WriteFile()
         {
             try
             {
-                string filePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
+                string filePath = Path.Combine(@"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV3", "ReadAndWriteFromThisFile.txt");
 
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
@@ -53,11 +53,11 @@ namespace FileIOReadAndWriteDemoV3
             }
         }
 
-        public static void ReadFile(string directoryPath)
+        public static void ReadFile()
         {
             try
             {
-                string filePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
+                string filePath = Path.Combine(@"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV3", "ReadAndWriteFromThisFile.txt");
 
                 using (StreamReader reader = new StreamReader(filePath))
                 {
@@ -76,12 +76,12 @@ namespace FileIOReadAndWriteDemoV3
             }
         }
 
-        public static void CopyPasteText(string directoryPath)
+        public static void CopyPasteText()
         {
             try
             {
-                string sourceFilePath = Path.Combine(directoryPath, "ReadAndWriteFromThisFile.txt");
-                string destinationFilePath = Path.Combine(directoryPath, "CopyTextToThisFile.txt");
+                string sourceFilePath = Path.Combine(@"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV3", "ReadAndWriteFromThisFile.txt");
+                string destinationFilePath = Path.Combine(@"C:\Users\MichaelLarsen\source\repos\cSharpAutomationCourse\14_FileIO\FileIOReadAndWriteDemoV3", "CopyTextToThisFile.txt");
 
                 using (StreamReader reader = new StreamReader(sourceFilePath))
                 using (StreamWriter writer = new StreamWriter(destinationFilePath))

@@ -45,44 +45,10 @@ public class Rectangle : Shape
     }
 }
 
-public class regularInscribedNGon : Shape
-{
-    // Fields
-    private double radius;
-    private int n;
-
-    // Constructor
-    public regularInscribedNGon(double radius, int n)
-    {
-        this.radius = radius;
-        this.n = n;
-    }
-
-    // Implementing abstract method
-    public override double CalculateArea()
-    {
-        return 0.5 * n * radius * radius * Math.Sin(2 * Math.PI / n);
-    }
-
-    // Getters and setters
-    public double Radius
-    {
-        get { return radius; }
-        set { radius = value; }
-    }
-
-    public int N
-    {
-        get { return n; }
-        set { n = value; }
-    }
-}
-
 public class ShapeTester
 {
     public static void Main()
     {
-        /*
         // Prompt the user to enter the length and width of the rectangle
         Console.Write("Enter the length of the rectangle: ");
         double length = Convert.ToDouble(Console.ReadLine());
@@ -98,26 +64,27 @@ public class ShapeTester
 
         // Call implemented abstract method
         Console.WriteLine("Area of rectangle: " + rectangle.CalculateArea());
-        */
-
-
-        // Prompt the user to enter the length and width of the regular inscribed n gon
-        Console.Write("Enter the radius of the regular inscribed n gon: ");
-        double radius = Convert.ToDouble(Console.ReadLine());
-
-        Console.Write("Enter the number of sides of the regular inscribed n gon: ");
-        int n = Convert.ToInt32(Console.ReadLine());
-
-        // Create an instance of regular inscribed n gon
-        regularInscribedNGon ngon = new regularInscribedNGon(radius, n);
-
-        // Call inherited method
-        Shape.Print();
-
-        // Call implemented abstract method
-        Console.WriteLine("Area of regular inscribed n gon: " + ngon.CalculateArea());
-
         Console.WriteLine("Press any Key to Continue");
         Console.ReadKey();
+    }
+}
+
+
+
+public abstract class Animal
+{
+    public abstract void MakeSound();
+
+    public void Eat()
+    {
+        Console.WriteLine("Eating...");
+    }
+}
+
+public class Dog : Animal
+{
+    public override void MakeSound()
+    {
+        Console.WriteLine("Bark!");
     }
 }
