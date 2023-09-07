@@ -14,6 +14,7 @@
             private IPage _page;
             private HomePage _homePage;
 
+
             [TestInitialize]
             public async Task TestInitialize()
             {
@@ -23,6 +24,7 @@
                 _homePage = new HomePage(_page);
             }
 
+            // <a class="menu__link menu__link--active" tabindex="0" href="/docs/writing-tests" aria-current="page">Writing tests</a>
 
             [TestCleanup]
             public async Task TestCleanup()

@@ -1,7 +1,7 @@
 namespace IntroPlaywrightNUnit
 {
     [TestFixture]
-    public class FirstPlaywrightTest
+    public class NUnitFirstPlaywrightTest
     {
         private IPlaywright playwright;
         private IBrowser browser;
@@ -33,7 +33,23 @@ namespace IntroPlaywrightNUnit
             Console.WriteLine($"Page Title: {title}");
 
             // Assert the title content
-            Assert.That(title, Is.EqualTo("Fast and reliable end-to-end testing for modern web apps | Playwright"));
+            Assert.That(title,
+                        Is.EqualTo("Fast and reliable end-to-end testing for modern web apps | Playwright"));
+        }
+
+        [Test]
+        public async Task FailTitleOnPlaywrightHomepage()
+        {
+            await page.GotoAsync("https://playwright.dev/");
+
+            // Get the page title
+            var title = await page.TitleAsync();
+
+            Console.WriteLine($"Page Title: {title}");
+
+            // Assert the title content
+            Assert.That(title,
+                        Is.Not.EqualTo("Fast reliable end-to-end testing for modern web apps | Playwright"));
         }
     }
 }
