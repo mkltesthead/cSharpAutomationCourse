@@ -25,7 +25,7 @@
             // Wait for the page to finish loading
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-            // Wait for the username input field with a 10-second timeout using XPath
+            // Wait for the username input field using XPath
             await _page.WaitForSelectorAsync("//*[contains(@name, 'username')]");
 
             // Locate and fill in the username input field using XPath

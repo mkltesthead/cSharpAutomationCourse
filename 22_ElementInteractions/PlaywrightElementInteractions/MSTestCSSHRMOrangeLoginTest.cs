@@ -25,7 +25,7 @@ namespace PlaywrightElementInteractions
             // Wait for the page to finish loading
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-            // Wait for the username input field with a 10-second timeout
+            // Wait for the username input field using a CSS Selector
             await _page.WaitForSelectorAsync("input[name='username']");
 
             // Locate and fill in the username input field using a CSS Selector
