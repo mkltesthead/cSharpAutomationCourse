@@ -1,4 +1,4 @@
-namespace ElementInteractionsMSTest
+namespace RefactoredElementInteractionsMSTest
 {
     [TestClass]
     public class KeyPressTest : TestBase
