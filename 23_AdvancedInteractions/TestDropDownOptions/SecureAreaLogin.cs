@@ -1,4 +1,4 @@
-﻿namespace RefactoredElementInteractionsMSTest
+﻿namespace ElementInteractionsMSTest
 {
     [TestClass]
     public class SecureAreaLogin : TestBase

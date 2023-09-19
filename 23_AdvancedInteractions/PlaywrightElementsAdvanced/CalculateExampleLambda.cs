@@ -7,13 +7,17 @@
             List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
 
             // This is the traditional approach to calculating square numbers
+
             List<int> squaredNumbers = CalculateSquaredNumbers(numbers);
+
             Console.WriteLine("Original Numbers: " + string.Join(", ", numbers));
             Console.WriteLine("Squared Numbers (Traditional): " + string.Join(", ", squaredNumbers));
 
             // Using an Expression Lambda to calculate the square of each number
             List<int> numbers2 = new List<int> { 2, 4, 6, 8, 10 };
+
             List<int> squaredNumbers2 = numbers2.Select(x => x * x).ToList();
+
             Console.WriteLine("Original Numbers: " + string.Join(", ", numbers2));
             Console.WriteLine("Squared Numbers (Lambda): " + string.Join(", ", squaredNumbers2));
 

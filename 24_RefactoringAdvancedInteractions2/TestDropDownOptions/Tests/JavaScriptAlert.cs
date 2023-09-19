@@ -1,9 +1,12 @@
-namespace RefactoredElementInteractionsMSTest
+namespace RefactoredElementInteractionsMSTest.Tests
 {
     [TestClass]
-    public class JavaScriptAlertTest : TestBase
+    public class JavaScriptAlertTest : FirefoxBase
     {
         [TestMethod]
+        [TestCategory("PositiveTest")]
+        [TestCategory("JavaScriptAlert")]
+
         public async Task HandleJavaScriptAlert()
         {
             string url = BaseUrl + "javascript_alerts";
@@ -11,9 +14,6 @@ namespace RefactoredElementInteractionsMSTest
 
             // Click the "Click for JS Alert" button
             await Page.ClickAsync("button[onclick='jsAlert()']");
-
-            // Wait for a moment to allow the alert to appear
-            // await page.WaitForTimeoutAsync(1000); // Adjust the delay as needed
 
             // Accept the alert (dismiss it)
             await Page.Keyboard.PressAsync("Enter");
