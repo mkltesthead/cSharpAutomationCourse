@@ -23,3 +23,10 @@ The current listing is as follows (you should see these directories):
 16_FinalExamPrep
 17_AutomatedTesting
 18_TestingAssertions
+19_TestOrganization
+20_DataDrivenTesting
+21_IntroducingPlaywright
+22_ElementInteractions
+23_AdvancedInteractions
+24_RefactoringAdvancedInteractions2
+25_PerametersAdvancedInteractions3
