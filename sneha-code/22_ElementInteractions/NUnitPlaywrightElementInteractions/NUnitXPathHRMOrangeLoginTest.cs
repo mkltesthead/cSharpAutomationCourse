@@ -1,13 +1,13 @@
-﻿namespace MSTestPlaywrightElementInteractions
+namespace NUnitPlaywrightElementInteractions
 {
-    [TestClass]
+    [TestFixture]
     public class HRMOrangeLoginTest
     {
         private IPlaywright _playwright;
         private IBrowser _browser;
         private IPage _page;
 
-        [TestInitialize]
+        [SetUp]
         public async Task TestInitialize()
         {
             // Create a Playwright instance and launch a browser
@@ -16,7 +16,7 @@
             _page = await _browser.NewPageAsync();
         }
 
-        [TestMethod]
+        [Test]
         public async Task LoginToOrangeHRMWithXPath()
         {
             // Navigate to the OrangeHRM login page
@@ -25,7 +25,7 @@
             // Wait for the page to finish loading
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-            // Wait for the username input field using XPath
+            // Wait for the username input field with a 10-second timeout using XPath
             await _page.WaitForSelectorAsync("//*[contains(@name, 'username')]");
 
             // Locate and fill in the username input field using XPath
@@ -42,10 +42,10 @@
 
             // Verify if the dashboard element is present after a successful login
             var dashboardElement = await _page.QuerySelectorAsync("//*[contains(@class, 'oxd-topbar-header-breadcrumb-module')]");
-            Assert.IsNotNull(dashboardElement, "Dashboard");
+            Assert.That(dashboardElement, Is.Not.Null, "Dashboard");
         }
 
-        [TestCleanup]
+        [TearDown]
         public async Task TestCleanup()
         {
             // Close the browser at the end of the test

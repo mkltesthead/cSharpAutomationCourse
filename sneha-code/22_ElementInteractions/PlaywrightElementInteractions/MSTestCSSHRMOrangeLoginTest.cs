@@ -1,4 +1,4 @@
-﻿namespace MSTestPlaywrightElementInteractions
+namespace PlaywrightElementInteractions
 {
     [TestClass]
     public class HRMOrangeLoginTest
@@ -17,7 +17,7 @@
         }
 
         [TestMethod]
-        public async Task LoginToOrangeHRMWithXPath()
+        public async Task LoginToOrangeHRM()
         {
             // Navigate to the OrangeHRM login page
             await _page.GotoAsync("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
@@ -25,23 +25,24 @@
             // Wait for the page to finish loading
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-            // Wait for the username input field using XPath
-            await _page.WaitForSelectorAsync("//*[contains(@name, 'username')]");
+            // Wait for the username input field with a 10-second timeout
+            await _page.WaitForSelectorAsync("input[name='username']");
 
-            // Locate and fill in the username input field using XPath
-            await _page.FillAsync("//*[contains(@name, 'username')]", "admin");
+            // Locate and fill in the username input field using a CSS Selector
+            await _page.FillAsync("input[name='username']", "admin");
 
-            // Locate and fill in the password input field using XPath
-            await _page.FillAsync("//*[contains(@name, 'password')]", "admin123");
+            // Locate and fill in the password input field using a CSS Selector
+            await _page.FillAsync("input[name='password']", "admin123");
 
-            // Click the "LOGIN" button using XPath
-            await _page.ClickAsync("//*[contains(@type, 'submit')]");
+            // Click the "LOGIN" button using a CSS Selector
+            await _page.ClickAsync("button[type=submit]");
 
-            // Wait for the dashboard element to appear using XPath
-            await _page.WaitForSelectorAsync("//*[contains(@class, 'oxd-topbar-header-breadcrumb-module')]");
+            // Wait for the dashboard element to appear (assuming it appears after a successful login)
+            await _page.WaitForSelectorAsync(".oxd-topbar-header-breadcrumb-module");
 
             // Verify if the dashboard element is present after a successful login
-            var dashboardElement = await _page.QuerySelectorAsync("//*[contains(@class, 'oxd-topbar-header-breadcrumb-module')]");
+            var dashboardElement = await _page.QuerySelectorAsync(".oxd-topbar-header-breadcrumb-module");
+
             Assert.IsNotNull(dashboardElement, "Dashboard");
         }
 

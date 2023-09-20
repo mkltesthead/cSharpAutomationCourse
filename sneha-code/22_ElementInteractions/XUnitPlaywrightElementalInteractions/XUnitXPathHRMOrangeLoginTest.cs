@@ -1,22 +1,20 @@
-﻿namespace MSTestPlaywrightElementInteractions
+namespace XUnitPlaywrightElementInteractions
 {
-    [TestClass]
-    public class HRMOrangeLoginTest
+    public class XPathHRMOrangeLoginTest : IDisposable
     {
         private IPlaywright _playwright;
         private IBrowser _browser;
         private IPage _page;
 
-        [TestInitialize]
-        public async Task TestInitialize()
+        public XPathHRMOrangeLoginTest()
         {
             // Create a Playwright instance and launch a browser
-            _playwright = await Playwright.CreateAsync();
-            _browser = await _playwright.Chromium.LaunchAsync();
-            _page = await _browser.NewPageAsync();
+            _playwright = Playwright.CreateAsync().GetAwaiter().GetResult();
+            _browser = _playwright.Chromium.LaunchAsync().GetAwaiter().GetResult();
+            _page = _browser.NewPageAsync().GetAwaiter().GetResult();
         }
 
-        [TestMethod]
+        [Fact]
         public async Task LoginToOrangeHRMWithXPath()
         {
             // Navigate to the OrangeHRM login page
@@ -25,7 +23,7 @@
             // Wait for the page to finish loading
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-            // Wait for the username input field using XPath
+            // Wait for the username input field with a 10-second timeout using XPath
             await _page.WaitForSelectorAsync("//*[contains(@name, 'username')]");
 
             // Locate and fill in the username input field using XPath
@@ -42,14 +40,13 @@
 
             // Verify if the dashboard element is present after a successful login
             var dashboardElement = await _page.QuerySelectorAsync("//*[contains(@class, 'oxd-topbar-header-breadcrumb-module')]");
-            Assert.IsNotNull(dashboardElement, "Dashboard");
+            Assert.NotNull(dashboardElement);
         }
 
-        [TestCleanup]
-        public async Task TestCleanup()
+        public void Dispose()
         {
             // Close the browser at the end of the test
-            await _browser.CloseAsync();
+            _browser.CloseAsync().GetAwaiter().GetResult();
         }
     }
 }

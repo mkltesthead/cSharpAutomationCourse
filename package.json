@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+<<<<<<< HEAD
+    "playwright": "^1.38.0"
+=======
+    "npm": "^10.1.0",
+    "playwright": "^1.37.1"
+>>>>>>> 7cc83624d4bbd635acb1f711ac1990c1ce074897
+  }
+}

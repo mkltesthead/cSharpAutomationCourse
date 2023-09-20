@@ -26,6 +26,8 @@ namespace XUnitPlaywrightElementInteractions
             // Wait for the username input field
             await _page.WaitForSelectorAsync("input[name='username']");
 
+            // Locate and fill in the username input field
+            await _page.FillAsync("input[name='username']", "admin");
 
             // Locate and fill in the password input field
             await _page.FillAsync("input[name='password']", "admin123");

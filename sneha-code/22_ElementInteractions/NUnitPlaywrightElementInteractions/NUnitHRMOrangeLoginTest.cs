@@ -1,21 +1,23 @@
-namespace XUnitPlaywrightElementInteractions
+namespace PlaywrightElementInteractions
 {
-    public class CSSHRMOrangeLoginTest
+    [TestFixture]
+    public class HRMOrangeLoginTest
     {
         private IPlaywright _playwright;
         private IBrowser _browser;
         private IPage _page;
 
-        public CSSHRMOrangeLoginTest()
+        [SetUp]
+        public async Task TestInitialize()
         {
             // Create a Playwright instance and launch a browser
-            _playwright = Playwright.CreateAsync().GetAwaiter().GetResult();
-            _browser = _playwright.Chromium.LaunchAsync().GetAwaiter().GetResult();
-            _page = _browser.NewPageAsync().GetAwaiter().GetResult();
+            _playwright = await Playwright.CreateAsync();
+            _browser = await _playwright.Chromium.LaunchAsync();
+            _page = await _browser.NewPageAsync();
         }
 
-        [Fact]
-        public async Task CSSLoginToOrangeHRM()
+        [Test]
+        public async Task LoginToOrangeHRM()
         {
             // Navigate to the OrangeHRM login page
             await _page.GotoAsync("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
@@ -23,29 +25,32 @@ namespace XUnitPlaywrightElementInteractions
             // Wait for the page to finish loading
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-            // Wait for the username input field
+            // Wait for the username input field with a 10-second timeout
             await _page.WaitForSelectorAsync("input[name='username']");
 
+            // Locate and fill in the username input field using a CSS Selector
+            await _page.FillAsync("input[name='username']", "admin");
 
-            // Locate and fill in the password input field
+            // Locate and fill in the password input field using a CSS Selector
             await _page.FillAsync("input[name='password']", "admin123");
 
-            // Click the "LOGIN" button
+            // Click the "LOGIN" button using a CSS Selector
             await _page.ClickAsync("button[type=submit]");
 
-            // Wait for the dashboard element to appear
+            // Wait for the dashboard element to appear (assuming it appears after a successful login)
             await _page.WaitForSelectorAsync(".oxd-topbar-header-breadcrumb-module");
 
             // Verify if the dashboard element is present after a successful login
             var dashboardElement = await _page.QuerySelectorAsync(".oxd-topbar-header-breadcrumb-module");
-            Assert.NotNull(dashboardElement);
+
+            Assert.That(dashboardElement, Is.Not.Null, "Dashboard");
         }
 
-        [Fact]
-        public void Dispose()
+        [TearDown]
+        public async Task TestCleanup()
         {
             // Close the browser at the end of the test
-            _browser.CloseAsync().GetAwaiter().GetResult();
+            await _browser.CloseAsync();
         }
     }
 }
