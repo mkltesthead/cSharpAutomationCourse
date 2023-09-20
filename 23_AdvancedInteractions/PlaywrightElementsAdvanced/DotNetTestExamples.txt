@@ -1,0 +1,18 @@
+dotnet test --verbosity quiet
+dotnet test --verbosity minimal
+dotnet test --verbosity normal
+dotnet test --verbosity detailed
+dotnet test --verbosity diagnostic
+dotnet test -v q 
+dotnet test -v m 
+dotnet test -v n 
+dotnet test -v d 
+dotnet test -v diag 
+ 
+dotnet test --filter "TestCategory = Circle Tests" -v q
+
+ q[uiet] 
+ m[inimal]
+ n[ormal]
+ d[etailed]
+ diag[nostic]

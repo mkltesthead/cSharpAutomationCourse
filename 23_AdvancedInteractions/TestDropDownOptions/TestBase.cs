@@ -1,4 +1,4 @@
-﻿namespace RefactoredElementInteractionsMSTest
+﻿namespace ElementInteractionsMSTest
 {
     public class TestBase
     {

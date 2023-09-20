@@ -1,9 +1,12 @@
-namespace ElementInteractionsMSTest
+namespace ParameterElementInteractions.Tests
 {
     [TestClass]
-    public class PageDropDownTest : TestBase
+    public class PageDropDownTest : FirefoxBase
     {
         [TestMethod]
+        [TestCategory("PositiveTest")]
+        [TestCategory("SelectDropdown")]
+
         public async Task SelectDropDownItem()
         {
             string url = BaseUrl + "dropdown";

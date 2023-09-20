@@ -1,26 +1,21 @@
 namespace ElementInteractionsMSTest
 {
     [TestClass]
-    public class CheckboxTest
+    public class CheckboxTest : TestBase
     {
 
         [TestMethod]
         public async Task UncheckFirstCheckbox()
         {
-            using var playwright = await Playwright.CreateAsync();
-            await using var browser = await playwright.Chromium.LaunchAsync();
-            var page = await browser.NewPageAsync();
-
-            await page.GotoAsync("https://the-internet.herokuapp.com/checkboxes");
+            string url = BaseUrl + "checkboxes";
+            await Page.GotoAsync(url);
 
             // Uncheck the first checkbox
-            await page.GetByRole(AriaRole.Checkbox).First.UncheckAsync();
+            await Page.GetByRole(AriaRole.Checkbox).First.UncheckAsync();
 
             // Assert that the first checkbox is unchecked
-            var isChecked = await page.GetByRole(AriaRole.Checkbox).First.IsCheckedAsync();
+            var isChecked = await Page.GetByRole(AriaRole.Checkbox).First.IsCheckedAsync();
             Assert.IsFalse(isChecked);
-
-            browser.CloseAsync().Wait();
         }
     }
 }
