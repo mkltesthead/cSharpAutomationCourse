@@ -34,6 +34,11 @@
             await Page.GetByLabel("Password").FillAsync("InvalidPassword");
             await Page.GetByRole(AriaRole.Button, new() { Name = " Login" }).ClickAsync();
 
+            // Capture a screenshot of the page after clicking "Add Element"
+            await Page.ScreenshotAsync(new PageScreenshotOptions
+            {
+                Path = "screenshot_login_error.png", // Set the path to store the screenshot
+            });
             // Assert that the login failed and an error message is displayed
             var errorMessage = await Page.TextContentAsync(".flash.error");
             Assert.IsNotNull(errorMessage);
