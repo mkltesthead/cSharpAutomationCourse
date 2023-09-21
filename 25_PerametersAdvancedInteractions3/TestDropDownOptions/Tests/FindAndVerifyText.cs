@@ -17,6 +17,7 @@
             string extractedText = await Page.InnerTextAsync(".example h3");
 
             // Verify that the extracted text is equal to "Context Menu"
+            Console.WriteLine($"What is inside of our H3 tag: " + extractedText);
             Assert.AreEqual("Context Menu", extractedText);
         }
 
@@ -40,6 +41,7 @@
             string newText = await Page.InnerTextAsync(".example h3");
 
             // Verify that the text is not present
+            Console.WriteLine($"What is  the value of H3 now: " + newText);
             Assert.AreNotEqual(extractedText, newText);
         }
 
@@ -49,8 +51,7 @@
 
         public async Task CaptureAndVerifyText()
         {
-            string url = "https://the-internet.herokuapp.com/context_menu";
-            await Page.GotoAsync(url);
+            await Page.GotoAsync(ContextMenuUrl);
 
             // Use Playwright to locate and capture text content
             capturedText = await Page.InnerTextAsync(".example h3");

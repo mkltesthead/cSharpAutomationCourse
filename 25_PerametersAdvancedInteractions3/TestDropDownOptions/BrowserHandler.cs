@@ -62,8 +62,8 @@
             {
                 return await playwright.Webkit.LaunchAsync(new BrowserTypeLaunchOptions
                 {
-                    Headless = false, // Change to false for visible mode
-                                      // Configure WebKit-specific options here
+                    Headless = true, // Change to false for visible mode
+                                     // Configure WebKit-specific options here
                 });
             }
         }

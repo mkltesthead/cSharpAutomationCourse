@@ -76,7 +76,6 @@
 
         }
 
-
         [TestMethod]
         [TestCategory("PositiveTest")]
         [TestCategory("AddRemoveElements")]
@@ -124,6 +123,5 @@
             Assert.AreEqual(initialElementCount + 1, elementCountAfterDelete);
             Console.WriteLine("Element Count After Delete: " + elementCountAfterDelete);
         }
-
     }
 }
